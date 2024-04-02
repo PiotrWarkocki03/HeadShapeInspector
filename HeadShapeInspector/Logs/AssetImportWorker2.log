@@ -553,3 +553,1737 @@ Received Import Request.
 Start importing Assets/Scenes/Easy Levels/Easy_L16.unity using Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab15c746ed63b60dd5d9023868b1eaf') in 0.000870 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4007.577624 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L16.unity
+  artifactKey: Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L16.unity using Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d262ef3c65be1d7f6343e91561e21a') in 0.004864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.791945 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L16.unity
+  artifactKey: Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L16.unity using Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50e4753c6f983ad53acb347c2fd0ba5') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.704333 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L17.unity
+  artifactKey: Guid(f5f1039b454c89f49a9c11cde5c366da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L17.unity using Guid(f5f1039b454c89f49a9c11cde5c366da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d21eaffbea6fb7e7662df12313850') in 0.001035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.677125 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L17.unity
+  artifactKey: Guid(f5f1039b454c89f49a9c11cde5c366da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L17.unity using Guid(f5f1039b454c89f49a9c11cde5c366da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a552f479f12ba3674db7833df86c2ad9') in 0.000765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.053435 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L18.unity
+  artifactKey: Guid(9bbc5d8dd545b7b4295e3eea6b546320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L18.unity using Guid(9bbc5d8dd545b7b4295e3eea6b546320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73fbca6e764a0556343852b4a0c3984') in 0.000931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.474359 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L18.unity
+  artifactKey: Guid(9bbc5d8dd545b7b4295e3eea6b546320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L18.unity using Guid(9bbc5d8dd545b7b4295e3eea6b546320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac644d7f0b7c8bf53ebd9c9c1048f84') in 0.001174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.020795 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L19.unity
+  artifactKey: Guid(ec6f8a405d6f05b4bbec2cb94f660965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L19.unity using Guid(ec6f8a405d6f05b4bbec2cb94f660965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1b426ebbd5420a85cf7b7d114be099') in 0.001010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 826.633893 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.unity
+  artifactKey: Guid(8b386f6b4d723f54e88fa9c69a3db4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.unity using Guid(8b386f6b4d723f54e88fa9c69a3db4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e57e5c9062c42208b51d86dfa783a6') in 0.000895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.373064 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.1.unity
+  artifactKey: Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.1.unity using Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e10966d0445e6beb45144679a8582b1') in 0.000708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.064885 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L19.unity
+  artifactKey: Guid(ec6f8a405d6f05b4bbec2cb94f660965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L19.unity using Guid(ec6f8a405d6f05b4bbec2cb94f660965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7999a30725b84ba0dbed431ef2600a1') in 0.000961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.650307 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.unity
+  artifactKey: Guid(8b386f6b4d723f54e88fa9c69a3db4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.unity using Guid(8b386f6b4d723f54e88fa9c69a3db4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb3341269911ee6bdca84547014ceb2') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.966836 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.2.unity
+  artifactKey: Guid(0f4b8af2706c5fe4883de6ba2e406270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.2.unity using Guid(0f4b8af2706c5fe4883de6ba2e406270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45855d623ec98dceca006d6a953a0592') in 0.000871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.618748 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.1.unity
+  artifactKey: Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.1.unity using Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8470fd1c7deb24db069a4b08f587d6ef') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.905757 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.1.unity
+  artifactKey: Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.1.unity using Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba1d5a29d85de36fa839bd70659cbf6') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 341.453987 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L2.unity
+  artifactKey: Guid(52c0604af7ba0a14fb5e5731fa43e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L2.unity using Guid(52c0604af7ba0a14fb5e5731fa43e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd582c2cda9c0c4d8ceefe477fc07d555') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.641810 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L2.unity
+  artifactKey: Guid(52c0604af7ba0a14fb5e5731fa43e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L2.unity using Guid(52c0604af7ba0a14fb5e5731fa43e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ef3f65bbc6fdc0c41493725f2e85de') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.365360 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L3.unity
+  artifactKey: Guid(daf84e33cb578d947bba40a277cd9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L3.unity using Guid(daf84e33cb578d947bba40a277cd9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f963aab08380ed3d5a3285a00eeabc1a') in 0.000823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 146.460242 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L3.unity
+  artifactKey: Guid(daf84e33cb578d947bba40a277cd9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L3.unity using Guid(daf84e33cb578d947bba40a277cd9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278d39d4e9bd2e18c3c4223bf1e18f64') in 0.000788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.634892 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L3.1.unity
+  artifactKey: Guid(3d23801919593db438d753d99c2c986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L3.1.unity using Guid(3d23801919593db438d753d99c2c986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97001d0231fcc0d9ebeee39fe48f442') in 0.000720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.674940 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L3.2.unity
+  artifactKey: Guid(127e6e46078d0ea4ab9756809ab0b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L3.2.unity using Guid(127e6e46078d0ea4ab9756809ab0b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750567eb45b7e69dd67e86efb2819d8a') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.931555 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L4.unity
+  artifactKey: Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L4.unity using Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ee41fe3a8c3702f361e43b9bf7ae71') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.311182 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L4.unity
+  artifactKey: Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L4.unity using Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849cbf56bc3e359810118eeb7d23d65f') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.817871 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L5.unity
+  artifactKey: Guid(d2aaaa300e84cb04383a7d38fe6d3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L5.unity using Guid(d2aaaa300e84cb04383a7d38fe6d3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a22199baf1fdf4928959f68c8e0676') in 0.001143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.204173 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L4.unity
+  artifactKey: Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L4.unity using Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbe5de7a0ea7ff673bcf7a930f3660d') in 0.000816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.663883 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L5.unity
+  artifactKey: Guid(d2aaaa300e84cb04383a7d38fe6d3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L5.unity using Guid(d2aaaa300e84cb04383a7d38fe6d3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ec987c6c8b9bd70ab52ba057ef3219') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.019429 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L6.unity
+  artifactKey: Guid(89ba1c509bba12f45bb40f1a567eae81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L6.unity using Guid(89ba1c509bba12f45bb40f1a567eae81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933f5d1a025501e256d0724f1779b8bc') in 0.001160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 505.842617 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L6.unity
+  artifactKey: Guid(89ba1c509bba12f45bb40f1a567eae81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L6.unity using Guid(89ba1c509bba12f45bb40f1a567eae81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83aee0a0c8a962ed53b153ef1b84c3fe') in 0.001080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.893412 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L7.unity
+  artifactKey: Guid(85aaa95b6b75d9443b28b530c9522c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L7.unity using Guid(85aaa95b6b75d9443b28b530c9522c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f5085f4cf0ac11b272b61e65b8ff07') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.621816 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L7.unity
+  artifactKey: Guid(85aaa95b6b75d9443b28b530c9522c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L7.unity using Guid(85aaa95b6b75d9443b28b530c9522c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a756ead78e821a794de0675a833cadeb') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.954329 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L8.unity
+  artifactKey: Guid(1729f6a51af423e46b1d02db2e3c3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L8.unity using Guid(1729f6a51af423e46b1d02db2e3c3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee1baa448521cadc3c0c13c7fd7c8ca') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.401806 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L8.unity
+  artifactKey: Guid(1729f6a51af423e46b1d02db2e3c3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L8.unity using Guid(1729f6a51af423e46b1d02db2e3c3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb3df24da1e81a25f4499d681757e41') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.277669 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L9.unity
+  artifactKey: Guid(2380331f79a8d864fa81ee1cfee69bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L9.unity using Guid(2380331f79a8d864fa81ee1cfee69bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6670294a6349ba3b079afadc6c22c5') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.128459 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L8.unity
+  artifactKey: Guid(1729f6a51af423e46b1d02db2e3c3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L8.unity using Guid(1729f6a51af423e46b1d02db2e3c3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5524104a2cba7ae7ce1a3163030fd07a') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.703165 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L9.unity
+  artifactKey: Guid(2380331f79a8d864fa81ee1cfee69bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L9.unity using Guid(2380331f79a8d864fa81ee1cfee69bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee94bb7496d4ffe86a85c3d2f024577') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.798852 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.unity
+  artifactKey: Guid(c8e26f17133a66d4d9ca173670d5b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.unity using Guid(c8e26f17133a66d4d9ca173670d5b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc8e5fc90df083bb117aa8d10597cf9') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 48.244192 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.unity
+  artifactKey: Guid(c8e26f17133a66d4d9ca173670d5b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.unity using Guid(c8e26f17133a66d4d9ca173670d5b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a334bc2669035cae3c75c1815e0dd4') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.038874 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L11.unity
+  artifactKey: Guid(756f6d1f42f2c1d479cd546649a1ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L11.unity using Guid(756f6d1f42f2c1d479cd546649a1ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52a6bf91012241ce2096918ef4558ea') in 0.001040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.382799 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L11.unity
+  artifactKey: Guid(756f6d1f42f2c1d479cd546649a1ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L11.unity using Guid(756f6d1f42f2c1d479cd546649a1ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df72f75fa88ad1167600c248e9e3a0b5') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.050713 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L12.unity
+  artifactKey: Guid(af7b853b35c7b9f4f81ab0c10b9fafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L12.unity using Guid(af7b853b35c7b9f4f81ab0c10b9fafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dd3fdf1fdff054d0f73bfb4c459c6d') in 0.000867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.311462 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L1.unity
+  artifactKey: Guid(0cf935b019393b643b5e8af157771f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L1.unity using Guid(0cf935b019393b643b5e8af157771f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f822be29fbe8af45cb5e7f1ff4e7215') in 0.000548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.615279 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L12.unity
+  artifactKey: Guid(af7b853b35c7b9f4f81ab0c10b9fafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L12.unity using Guid(af7b853b35c7b9f4f81ab0c10b9fafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1a4d49b134a241ee2af66d40cbefa4') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.816977 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L13.unity
+  artifactKey: Guid(0c7117828fac9764fb1d94420dc24f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L13.unity using Guid(0c7117828fac9764fb1d94420dc24f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0264c2d4c9e96fbd17956e7c040898d7') in 0.000700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 416.427962 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L14.unity
+  artifactKey: Guid(9e588968f4dd8da45b171fc7ee89425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L14.unity using Guid(9e588968f4dd8da45b171fc7ee89425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c7b826a7dd6c61a3e30e95abb84582') in 0.000928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 125.891642 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.unity
+  artifactKey: Guid(eabfdd18d6358e34e99037d2452bdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.unity using Guid(eabfdd18d6358e34e99037d2452bdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174ce4182372c3ed07e4f11e9b0e91ec') in 0.001599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 123.317718 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L16.unity
+  artifactKey: Guid(79eacbdaa3c99144db33dba505929a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L16.unity using Guid(79eacbdaa3c99144db33dba505929a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d55b22327bbf7c276efc2608bf30708') in 0.000979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.573032 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L17.unity
+  artifactKey: Guid(1875714b215e9234dbf3168afc1c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L17.unity using Guid(1875714b215e9234dbf3168afc1c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0941f08a4b7a2be3565544ea3f7c44a') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 116.974958 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L18.unity
+  artifactKey: Guid(c567cedb47b69604195cd85f6c0d8789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L18.unity using Guid(c567cedb47b69604195cd85f6c0d8789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caabd40ac2b35c336fbf3754338a25f') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.165818 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L19.unity
+  artifactKey: Guid(1db9ffe7c1c563f46a410150830139d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L19.unity using Guid(1db9ffe7c1c563f46a410150830139d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000ea2b1f337169e22d25581b3c574e9') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 199.465042 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L1.unity
+  artifactKey: Guid(92b23730ec40d28419a20d211a6f0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L1.unity using Guid(92b23730ec40d28419a20d211a6f0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a309eea9a2d3b03c2b96c705bc5e65') in 0.000564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.749277 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L1.1.unity
+  artifactKey: Guid(b0faa995d1dd3344492ca545b426f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L1.1.unity using Guid(b0faa995d1dd3344492ca545b426f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f8976ee26d551ca795c185daf9f2b') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 703.192151 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L2.unity
+  artifactKey: Guid(e96e753fc27a12c4fa8510f1ad7a02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L2.unity using Guid(e96e753fc27a12c4fa8510f1ad7a02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1010e1502054e75cfbbffa0d60736ad') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.125354 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L3.unity
+  artifactKey: Guid(1e24c5a1dde117e429b2aeb7379e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L3.unity using Guid(1e24c5a1dde117e429b2aeb7379e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bffe2be3260d4215ef876b287eb93b5') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 275.235836 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L4.unity
+  artifactKey: Guid(d0bdcd07f5a196f40975f9f795e2bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L4.unity using Guid(d0bdcd07f5a196f40975f9f795e2bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936713b92f83e643423cc606fb615a92') in 0.000734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.662585 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L3.unity
+  artifactKey: Guid(1e24c5a1dde117e429b2aeb7379e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L3.unity using Guid(1e24c5a1dde117e429b2aeb7379e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b493086b50180f2e3826bb04a44cd09e') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.844612 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L4.unity
+  artifactKey: Guid(d0bdcd07f5a196f40975f9f795e2bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L4.unity using Guid(d0bdcd07f5a196f40975f9f795e2bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974711f25f1ea218231cb581876c6fe7') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.692902 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L5.unity
+  artifactKey: Guid(ae2921a095f22e1429949c8450a3e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L5.unity using Guid(ae2921a095f22e1429949c8450a3e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14eb8ed0256c232c858e2648b3eb12f') in 0.001283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.738209 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L5.unity
+  artifactKey: Guid(ae2921a095f22e1429949c8450a3e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L5.unity using Guid(ae2921a095f22e1429949c8450a3e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fddee93150eb0ce299f89773df11d33') in 0.000755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 244.105615 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L7.unity
+  artifactKey: Guid(e2b15fcca0f9efe44b9e59f2db3c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L7.unity using Guid(e2b15fcca0f9efe44b9e59f2db3c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae7991a82cb01288b67d5e3174bea2d') in 0.001233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.495593 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L6.unity
+  artifactKey: Guid(2ad860e7fc9fd004eb9c6f9a58a17a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L6.unity using Guid(2ad860e7fc9fd004eb9c6f9a58a17a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037f66c642e186d0c2770ca314bb8f4e') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.023845 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L7.unity
+  artifactKey: Guid(e2b15fcca0f9efe44b9e59f2db3c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L7.unity using Guid(e2b15fcca0f9efe44b9e59f2db3c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31306ce30ff4b7cf5408bfbcbedd83b3') in 0.000457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.921574 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L8.unity
+  artifactKey: Guid(50e66fddeaea2fc44944f964ff7d57a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L8.unity using Guid(50e66fddeaea2fc44944f964ff7d57a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd65930f31a8e1d1e492670f33ea9c1') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.467576 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L9.unity
+  artifactKey: Guid(429897f55bfaaef45a892192d77d745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L9.unity using Guid(429897f55bfaaef45a892192d77d745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5b27ffc69c84246d82c0cc6371e401') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.674933 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L10.unity
+  artifactKey: Guid(df2b701ecfa50ff41b136ec9119f7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L10.unity using Guid(df2b701ecfa50ff41b136ec9119f7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e871b1eb062d63cdded9c760d7491c52') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.503424 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L11.unity
+  artifactKey: Guid(7cf1544df4cd4184f9a685479540ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L11.unity using Guid(7cf1544df4cd4184f9a685479540ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7c9026f57285dc20dfb1644edb7945') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.844299 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L12.unity
+  artifactKey: Guid(c8e334fb3e1138b49974cd5e98504403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L12.unity using Guid(c8e334fb3e1138b49974cd5e98504403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43eaee95352828845205f76f82b6ac8') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.470776 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L13.unity
+  artifactKey: Guid(dd9976410fc6e7a448da431f947e7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L13.unity using Guid(dd9976410fc6e7a448da431f947e7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f3a21aecf92d814d3745892739bb61') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 397.142253 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L8.unity
+  artifactKey: Guid(50e66fddeaea2fc44944f964ff7d57a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L8.unity using Guid(50e66fddeaea2fc44944f964ff7d57a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3631dfa11761ca3bb857902d1cec3473') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.978019 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L9.unity
+  artifactKey: Guid(429897f55bfaaef45a892192d77d745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L9.unity using Guid(429897f55bfaaef45a892192d77d745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd450041f4d8cae7262e218a145b1749') in 0.000701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 365.971512 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L10.unity
+  artifactKey: Guid(df2b701ecfa50ff41b136ec9119f7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L10.unity using Guid(df2b701ecfa50ff41b136ec9119f7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e455ab9b27c4bfb1295f4a415aa412') in 0.000907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1959.520904 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L11.unity
+  artifactKey: Guid(7cf1544df4cd4184f9a685479540ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L11.unity using Guid(7cf1544df4cd4184f9a685479540ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c82fe53a6ada359ee4a34756aefcb') in 0.000968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 104.469413 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L12.unity
+  artifactKey: Guid(c8e334fb3e1138b49974cd5e98504403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L12.unity using Guid(c8e334fb3e1138b49974cd5e98504403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d33cf3e2b6ec38dc94b68a41b2e493b') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.780776 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L13.unity
+  artifactKey: Guid(dd9976410fc6e7a448da431f947e7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L13.unity using Guid(dd9976410fc6e7a448da431f947e7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba78ab32bcc1ed63a0773055cd84930') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.396245 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L14.unity
+  artifactKey: Guid(048cea2a8510bed4baeb7173fcb33996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L14.unity using Guid(048cea2a8510bed4baeb7173fcb33996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c909284a7af884345d0d466a5ab221f') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 366.998047 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L14.unity
+  artifactKey: Guid(048cea2a8510bed4baeb7173fcb33996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L14.unity using Guid(048cea2a8510bed4baeb7173fcb33996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f2020e038ef63e75c28ef1bce2ab24') in 0.000735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.680672 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L15.unity
+  artifactKey: Guid(5b127f24dfe2ffd4eb418d5ec13dfca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L15.unity using Guid(5b127f24dfe2ffd4eb418d5ec13dfca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bf2c686111edadab0f29d657b933ad') in 0.000785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.799230 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L1.2.unity
+  artifactKey: Guid(833bca84f3a88ad4c965dcbc81eb8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L1.2.unity using Guid(833bca84f3a88ad4c965dcbc81eb8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cdd9df0dae9e9600d0c9b4073414b2') in 0.001261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.474675 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L15.unity
+  artifactKey: Guid(5b127f24dfe2ffd4eb418d5ec13dfca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L15.unity using Guid(5b127f24dfe2ffd4eb418d5ec13dfca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4536cb6f7760016b701ce8f68e2a9264') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.862690 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L16.unity
+  artifactKey: Guid(a10d69499ab804649994d7dd64bc0de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L16.unity using Guid(a10d69499ab804649994d7dd64bc0de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c1ccefea74c90c79f5e7687a926087') in 0.001981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.770680 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L16.1.unity
+  artifactKey: Guid(a5bfbabe7eaa1f549b39a06f89189da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L16.1.unity using Guid(a5bfbabe7eaa1f549b39a06f89189da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a486b0477b364bb201543c1d4aff0d7') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.594470 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L17.unity
+  artifactKey: Guid(15c4a441c7f52b64e930fbce63a66dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L17.unity using Guid(15c4a441c7f52b64e930fbce63a66dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cfd7be5fd472dad7b5eeb2c512ddc2') in 0.000810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.274205 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L16.2.unity
+  artifactKey: Guid(e05dbde7d3defec4fb14e53d0d9a25aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L16.2.unity using Guid(e05dbde7d3defec4fb14e53d0d9a25aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a488a44279fcf6e357c94929601cda') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.389722 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L18.unity
+  artifactKey: Guid(201b674889dacf143b5f741dce199b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L18.unity using Guid(201b674889dacf143b5f741dce199b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea1bf87193fdac2d2b6436abcb8b6a8') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.050927 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L17.unity
+  artifactKey: Guid(15c4a441c7f52b64e930fbce63a66dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L17.unity using Guid(15c4a441c7f52b64e930fbce63a66dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6223eaacacc8ecfb827af9414d45c191') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.601844 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L19.unity
+  artifactKey: Guid(6d5cbc0b07ed4af418aa86872de7f83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L19.unity using Guid(6d5cbc0b07ed4af418aa86872de7f83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2e6e5c6aab2c34ba598686b6182717') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.750861 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L20.unity
+  artifactKey: Guid(53554dccc74f20041b358f55b2a5f351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L20.unity using Guid(53554dccc74f20041b358f55b2a5f351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d2f3b131054598926adc4ed6b87e97') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 309.269539 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L20.unity
+  artifactKey: Guid(53554dccc74f20041b358f55b2a5f351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L20.unity using Guid(53554dccc74f20041b358f55b2a5f351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bfc29797e1769e64661fdc5338fe6a') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.656616 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L19.unity
+  artifactKey: Guid(6d5cbc0b07ed4af418aa86872de7f83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L19.unity using Guid(6d5cbc0b07ed4af418aa86872de7f83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21383874bfea2c353ecc75c80346a0ba') in 0.000735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.657375 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L18.unity
+  artifactKey: Guid(201b674889dacf143b5f741dce199b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L18.unity using Guid(201b674889dacf143b5f741dce199b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f58b07da715f96b8365f96ef12f5983') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.153290 seconds.
+  path: Assets/Scenes/Hard Levels/Medium_L6.unity
+  artifactKey: Guid(ad11ce36ed281b542ae73a46de5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Medium_L6.unity using Guid(ad11ce36ed281b542ae73a46de5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bd0d7ded7a1c0d5686dffb2b984fd2') in 0.000534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.489758 seconds.
+  path: Assets/Scenes/Hard Levels/a.unity
+  artifactKey: Guid(daf84e33cb578d947bba40a277cd9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/a.unity using Guid(daf84e33cb578d947bba40a277cd9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f672bf504c767884688c96a5bef657') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.866513 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L3.unity
+  artifactKey: Guid(ad11ce36ed281b542ae73a46de5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L3.unity using Guid(ad11ce36ed281b542ae73a46de5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3046d424a4ee9d246db5c341222292') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.995252 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L3.unity
+  artifactKey: Guid(ad11ce36ed281b542ae73a46de5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L3.unity using Guid(ad11ce36ed281b542ae73a46de5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a876330eadd761c263f1d8cf5fcf9e') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.228597 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L4.unity
+  artifactKey: Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L4.unity using Guid(a9f4161c5cf98644e9f2e3dc550d6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb9059c46f20ac3eb4dfb72828db22a') in 0.000739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.969430 seconds.
+  path: Assets/Scenes/Hard Levels/Medium_L6.unity
+  artifactKey: Guid(2b7d68a544b2df24aba1a52734fd04e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Medium_L6.unity using Guid(2b7d68a544b2df24aba1a52734fd04e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a6e963b2b279b3f1f845e252ede3f0') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.430817 seconds.
+  path: Assets/Scenes/Hard Levels/B.unity
+  artifactKey: Guid(c8e26f17133a66d4d9ca173670d5b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/B.unity using Guid(c8e26f17133a66d4d9ca173670d5b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6139e7e3fcc8d450bb481c5abafb2d22') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.392108 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.unity
+  artifactKey: Guid(2b7d68a544b2df24aba1a52734fd04e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.unity using Guid(2b7d68a544b2df24aba1a52734fd04e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1716bbf0315904eb7d5ab8f6e45ffe') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.996190 seconds.
+  path: Assets/Scenes/Hard Levels/Medium_L1.unity
+  artifactKey: Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Medium_L1.unity using Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1af2c3a9e8b7e3711d1b7dc72b85767') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.108946 seconds.
+  path: Assets/Scenes/Hard Levels/Medium_L1.unity
+  artifactKey: Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Medium_L1.unity using Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f93b7d276f2b4bb94bfcc8c743c9ee') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.137088 seconds.
+  path: Assets/Scenes/Hard Levels/Hard.unity
+  artifactKey: Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard.unity using Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ad69fdcd58cc10148a7df75dbcf1f3') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.743858 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.unity
+  artifactKey: Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.unity using Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e7c137f11ee076b5fc482fcb91c398') in 0.000574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.851732 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10 1.unity
+  artifactKey: Guid(abeed85c2146a2d44b77a9f7e5b35837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10 1.unity using Guid(abeed85c2146a2d44b77a9f7e5b35837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0539ce640c0ffed754a7982b44497d9e') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.683056 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.1.unity
+  artifactKey: Guid(abeed85c2146a2d44b77a9f7e5b35837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.1.unity using Guid(abeed85c2146a2d44b77a9f7e5b35837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb2811bc271d184b32fa0bcabe832ac') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.378587 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.1 1.unity
+  artifactKey: Guid(dc40fcb01c8e3614bb238ed339b2e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.1 1.unity using Guid(dc40fcb01c8e3614bb238ed339b2e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e760acf7e80de0c057bbed62d82769f') in 0.000786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.953514 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.2.unity
+  artifactKey: Guid(dc40fcb01c8e3614bb238ed339b2e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.2.unity using Guid(dc40fcb01c8e3614bb238ed339b2e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedad4fa7bc16af5847326a4e23b69e7') in 0.000954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.514479 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.unity
+  artifactKey: Guid(eabfdd18d6358e34e99037d2452bdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.unity using Guid(eabfdd18d6358e34e99037d2452bdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5940870b001af0af258d632d8c0a66e1') in 0.001408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.286247 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.1 1.unity
+  artifactKey: Guid(8847c046d63994349ae6a7cda50afbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.1 1.unity using Guid(8847c046d63994349ae6a7cda50afbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b6a825c462d4c43cc24bb92980ddc0') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.083173 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.unity
+  artifactKey: Guid(8847c046d63994349ae6a7cda50afbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.unity using Guid(8847c046d63994349ae6a7cda50afbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943dbc3b8e7b636113d2c1fa9efe780b') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.714843 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15 1.unity
+  artifactKey: Guid(74941ddbe58ea7045ab98a7b0f0bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15 1.unity using Guid(74941ddbe58ea7045ab98a7b0f0bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255657524f5ae02876dee34cc83098e4') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.728874 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.1.unity
+  artifactKey: Guid(74941ddbe58ea7045ab98a7b0f0bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.1.unity using Guid(74941ddbe58ea7045ab98a7b0f0bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdffd76acd5f49fcc7b131525108284') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.810413 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.1 1.unity
+  artifactKey: Guid(aebac60447567bb43b6687a4e13ef9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.1 1.unity using Guid(aebac60447567bb43b6687a4e13ef9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f24691319dd20cc2faf0ab5a1751425') in 0.000658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.252920 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.2.unity
+  artifactKey: Guid(aebac60447567bb43b6687a4e13ef9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.2.unity using Guid(aebac60447567bb43b6687a4e13ef9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cbc09d6f7a657ca7be96c4da58615b') in 0.000424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.726039 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L16.unity
+  artifactKey: Guid(79eacbdaa3c99144db33dba505929a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L16.unity using Guid(79eacbdaa3c99144db33dba505929a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e58ac065c0483155ce10215f7e8eae') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.967776 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L17.unity
+  artifactKey: Guid(1875714b215e9234dbf3168afc1c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L17.unity using Guid(1875714b215e9234dbf3168afc1c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1eb65b6e64f4ef3c519584abc36e5d') in 0.000735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.487144 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L18.unity
+  artifactKey: Guid(c567cedb47b69604195cd85f6c0d8789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L18.unity using Guid(c567cedb47b69604195cd85f6c0d8789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ead91eb8c4fb7d62e6109c27b66c77a') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.472231 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L19.unity
+  artifactKey: Guid(1db9ffe7c1c563f46a410150830139d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L19.unity using Guid(1db9ffe7c1c563f46a410150830139d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf3073498a9a69b3b25ad9b395cd402') in 0.000643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.508040 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L20.unity
+  artifactKey: Guid(dd785ced24eb00b428456ff369459695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L20.unity using Guid(dd785ced24eb00b428456ff369459695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9694597d484e2f335f8119c00868a3a') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.677093 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L2.unity
+  artifactKey: Guid(e96e753fc27a12c4fa8510f1ad7a02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L2.unity using Guid(e96e753fc27a12c4fa8510f1ad7a02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84742eb2dadf0b9b31fe2c2d1c3cb09e') in 0.000550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.948489 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L11.unity
+  artifactKey: Guid(7cf1544df4cd4184f9a685479540ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L11.unity using Guid(7cf1544df4cd4184f9a685479540ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a688ced429901c983552ad3aa4eb8690') in 0.000463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.774836 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L16.2.unity
+  artifactKey: Guid(e05dbde7d3defec4fb14e53d0d9a25aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L16.2.unity using Guid(e05dbde7d3defec4fb14e53d0d9a25aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129186848b7bfdc079d76c24e25b0f0b') in 0.000459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.431880 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L1.unity
+  artifactKey: Guid(92b23730ec40d28419a20d211a6f0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L1.unity using Guid(92b23730ec40d28419a20d211a6f0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2232267bd3f6de17efd5f2c282c70a99') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.056986 seconds.
+  path: Assets/Scenes/Medium Levels/Medium_L1.1.unity
+  artifactKey: Guid(b0faa995d1dd3344492ca545b426f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Medium Levels/Medium_L1.1.unity using Guid(b0faa995d1dd3344492ca545b426f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a191d356e3b841d3e1056c298167dfd0') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.711020 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L13.unity
+  artifactKey: Guid(0c7117828fac9764fb1d94420dc24f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L13.unity using Guid(0c7117828fac9764fb1d94420dc24f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615f32699c707c6bac16d3c363d93f02') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.085829 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L14.unity
+  artifactKey: Guid(9e588968f4dd8da45b171fc7ee89425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L14.unity using Guid(9e588968f4dd8da45b171fc7ee89425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02de08b601e993828dd3a8e2c2dd0af9') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 190.402676 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L3.2.unity
+  artifactKey: Guid(a7e3ecc8f3c5c124ab8f5399228908d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L3.2.unity using Guid(a7e3ecc8f3c5c124ab8f5399228908d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81cb31b1c43a9a3ead93ebaba1efc52') in 0.000782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 83.848725 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L2.unity
+  artifactKey: Guid(52c0604af7ba0a14fb5e5731fa43e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L2.unity using Guid(52c0604af7ba0a14fb5e5731fa43e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9796d3ac361e817433552d88f7836cc') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.147289 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L5.unity
+  artifactKey: Guid(d2aaaa300e84cb04383a7d38fe6d3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L5.unity using Guid(d2aaaa300e84cb04383a7d38fe6d3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b4f40c53dc14bd6ae612ab709daa87') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 68.746995 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L11.unity
+  artifactKey: Guid(756f6d1f42f2c1d479cd546649a1ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L11.unity using Guid(756f6d1f42f2c1d479cd546649a1ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5458bda7638133e3cc2736235c6440') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.898534 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L14.unity
+  artifactKey: Guid(9e588968f4dd8da45b171fc7ee89425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L14.unity using Guid(9e588968f4dd8da45b171fc7ee89425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7270c336392d5030dc870b0bd17c467') in 0.000435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.907013 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L16.unity
+  artifactKey: Guid(79eacbdaa3c99144db33dba505929a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L16.unity using Guid(79eacbdaa3c99144db33dba505929a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f33ac846b57a77d460039af913de11') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.363677 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L17.unity
+  artifactKey: Guid(1875714b215e9234dbf3168afc1c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L17.unity using Guid(1875714b215e9234dbf3168afc1c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb25ee8b581a8ad2d02cf6bd9284f178') in 0.000643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.729853 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.unity
+  artifactKey: Guid(8847c046d63994349ae6a7cda50afbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.unity using Guid(8847c046d63994349ae6a7cda50afbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11774f0662fae1b92a86ddeeee8e8941') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.986976 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.1.unity
+  artifactKey: Guid(74941ddbe58ea7045ab98a7b0f0bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.1.unity using Guid(74941ddbe58ea7045ab98a7b0f0bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38a6b6c3d7a9a6b7815c90bc0b3de6') in 0.000782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.967242 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L15.2.unity
+  artifactKey: Guid(aebac60447567bb43b6687a4e13ef9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L15.2.unity using Guid(aebac60447567bb43b6687a4e13ef9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bbade99872538984c776f2d77f3391') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.025259 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.unity
+  artifactKey: Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.unity using Guid(a89a476747cbc884db3b559999acfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17920f425933995a519a65fb0f51e085') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.230387 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.1.unity
+  artifactKey: Guid(abeed85c2146a2d44b77a9f7e5b35837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.1.unity using Guid(abeed85c2146a2d44b77a9f7e5b35837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f46fa3e7c3af2bb0d81ddd3f605ce9a') in 0.000435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.221895 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L10.2.unity
+  artifactKey: Guid(dc40fcb01c8e3614bb238ed339b2e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L10.2.unity using Guid(dc40fcb01c8e3614bb238ed339b2e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f4df25bf1b80e03bbbedbe53532339') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 105.195315 seconds.
+  path: Assets/Scenes/Hard Levels/Hard_L1.unity
+  artifactKey: Guid(0cf935b019393b643b5e8af157771f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard Levels/Hard_L1.unity using Guid(0cf935b019393b643b5e8af157771f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858e598d179e7daee14302a16eadd5e7') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.304254 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L1.unity
+  artifactKey: Guid(d3561f7e5674f17449b5cff236c2c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L1.unity using Guid(d3561f7e5674f17449b5cff236c2c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99641ade5548b0e175b80157cdcea5ad') in 0.000847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.378196 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L2.unity
+  artifactKey: Guid(dcf06e681a3988b438be5f00666395a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L2.unity using Guid(dcf06e681a3988b438be5f00666395a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9b025991107cd61e2b545c2f1980d6') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.563649 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L3.unity
+  artifactKey: Guid(661d891674fb00f44a7a619a50ebaafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L3.unity using Guid(661d891674fb00f44a7a619a50ebaafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ede2c98e2061f32e0edca18e7fb3c1') in 0.000715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.101551 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L3.1.unity
+  artifactKey: Guid(ec5a7c7a3bce60c408c653f5d0347941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L3.1.unity using Guid(ec5a7c7a3bce60c408c653f5d0347941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a9d1833c390b4823f7334f00b919dc') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.350606 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L4.unity
+  artifactKey: Guid(e30e809c7ac85c8498f733af99fb3f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L4.unity using Guid(e30e809c7ac85c8498f733af99fb3f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c23653cb8441fbf4c2ffd95a60dfcc') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.475843 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L5.unity
+  artifactKey: Guid(991fc9eb6b8214a428cbf56b136996e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L5.unity using Guid(991fc9eb6b8214a428cbf56b136996e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6751e0486e4ae14bf90408cfb5a95a') in 0.001036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.520859 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L6.unity
+  artifactKey: Guid(794c711fb97b9c241a86e5b38ddf89db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L6.unity using Guid(794c711fb97b9c241a86e5b38ddf89db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dcf30bd0edccec6d719717d68ec59a') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.112397 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L7.unity
+  artifactKey: Guid(0c137a23b8fce0947b733d90dc2c139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L7.unity using Guid(0c137a23b8fce0947b733d90dc2c139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51419850ce78a153b2263e0bf57e15f') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.027742 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L8.unity
+  artifactKey: Guid(646d6dfbd767cb7478e32787b3c50cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L8.unity using Guid(646d6dfbd767cb7478e32787b3c50cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8557d402f8d31f1ff80740b1ac3499e9') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.181335 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L9.unity
+  artifactKey: Guid(0e2fd7916742e8d428e107c4ef699623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L9.unity using Guid(0e2fd7916742e8d428e107c4ef699623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55bbfdcb5ad57c4856746f77cc1c47b') in 0.000685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.029748 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L10.unity
+  artifactKey: Guid(463dd8fb840460e43b16260ac836c9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L10.unity using Guid(463dd8fb840460e43b16260ac836c9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a074c77b3fa411b36ff4d0bd05d783') in 0.000714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.392630 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L11.unity
+  artifactKey: Guid(3ca081d36c0dd1a459d0461274a33345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L11.unity using Guid(3ca081d36c0dd1a459d0461274a33345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1775cbdf56eacceccd6e9052df343285') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.606819 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L12.unity
+  artifactKey: Guid(e64b8b40e75e03c4ea89d17ec3ee50b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L12.unity using Guid(e64b8b40e75e03c4ea89d17ec3ee50b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c774f6f341d5d4e43601badd6554d2') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.648674 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L13.unity
+  artifactKey: Guid(8d8263328e1a23b42a82455a288be7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L13.unity using Guid(8d8263328e1a23b42a82455a288be7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e47283603cfdc3607c09130a03b23') in 0.000581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.220148 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L13.1.unity
+  artifactKey: Guid(9791740dc61119a4fa13fc499179b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L13.1.unity using Guid(9791740dc61119a4fa13fc499179b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05aa52cf642f2f157cbb9bda8f744b2') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.188133 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L13.2.unity
+  artifactKey: Guid(23d7b82dbc8074b42ac56004f439f1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L13.2.unity using Guid(23d7b82dbc8074b42ac56004f439f1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bc8df00dccd2a58047c2ded0b13a8d') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.581402 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L14.unity
+  artifactKey: Guid(9837fe508440e734a9e151d1cd3144ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L14.unity using Guid(9837fe508440e734a9e151d1cd3144ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7915418463617898fb1796d55fb7c9b5') in 0.002223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.922285 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L15.unity
+  artifactKey: Guid(df0f4b29994968b4c9f1092abd998e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L15.unity using Guid(df0f4b29994968b4c9f1092abd998e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712cfc07191dcc66c351971dae267894') in 0.000525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.535800 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L16.unity
+  artifactKey: Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L16.unity using Guid(bbbb0ce389d7fa84aa5192b036a9eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d8a7e54903a60f4e9dc5063ff9c88e') in 0.000413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.700926 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L17.unity
+  artifactKey: Guid(f5f1039b454c89f49a9c11cde5c366da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L17.unity using Guid(f5f1039b454c89f49a9c11cde5c366da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f59fd42c33653333339ec2c68e67103') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.389827 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L18.unity
+  artifactKey: Guid(9bbc5d8dd545b7b4295e3eea6b546320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L18.unity using Guid(9bbc5d8dd545b7b4295e3eea6b546320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e8720b66250b92108b8751cd44519d') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.520195 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L19.unity
+  artifactKey: Guid(ec6f8a405d6f05b4bbec2cb94f660965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L19.unity using Guid(ec6f8a405d6f05b4bbec2cb94f660965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b074361a1a45aee4912ff99083fbab4') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.803348 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.unity
+  artifactKey: Guid(8b386f6b4d723f54e88fa9c69a3db4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.unity using Guid(8b386f6b4d723f54e88fa9c69a3db4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551241fb8d21c389a7d76090bbc8a6b1') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.695171 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.1.unity
+  artifactKey: Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.1.unity using Guid(d680c6720f1334b4da1cc00245458095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279f4483b951b98603cff9de9015be98') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.761263 seconds.
+  path: Assets/Scenes/Easy Levels/Easy_L20.2.unity
+  artifactKey: Guid(0f4b8af2706c5fe4883de6ba2e406270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy Levels/Easy_L20.2.unity using Guid(0f4b8af2706c5fe4883de6ba2e406270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c183ae0ca5b3606c589eb7779c0b4868') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.307 seconds
+Refreshing native plugins compatible for Editor in 7.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.845 seconds
+Domain Reload Profiling: 3149ms
+	BeginReloadAssembly (472ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (197ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (721ms)
+		LoadAssemblies (836ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1846ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (37.2 KB). Loaded Objects now: 3682.
+Memory consumption went from 139.2 MB to 139.2 MB.
+Total: 4.460700 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.226600 ms MarkObjects: 3.814200 ms  DeleteObjects: 0.119200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 456.944721 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L1.unity
+  artifactKey: Guid(92b23730ec40d28419a20d211a6f0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L1.unity using Guid(92b23730ec40d28419a20d211a6f0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453e5c971d7f100f6253849453950f3f') in 0.007780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.875899 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L1.2.unity
+  artifactKey: Guid(833bca84f3a88ad4c965dcbc81eb8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L1.2.unity using Guid(833bca84f3a88ad4c965dcbc81eb8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217e8b8d06d33c7d716e995427954b26') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.932443 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L1.1.unity
+  artifactKey: Guid(b0faa995d1dd3344492ca545b426f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L1.1.unity using Guid(b0faa995d1dd3344492ca545b426f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5edc96e1968e592bbae0dbe8328f79') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.607404 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L2.unity
+  artifactKey: Guid(e96e753fc27a12c4fa8510f1ad7a02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L2.unity using Guid(e96e753fc27a12c4fa8510f1ad7a02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85837d0cfe5513d53c0e0371e13b8b54') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.288230 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L1.2.unity
+  artifactKey: Guid(833bca84f3a88ad4c965dcbc81eb8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L1.2.unity using Guid(833bca84f3a88ad4c965dcbc81eb8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5804b2a36d7a3b5bdc5620f3217b421b') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 8.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.061 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.2 KB). Loaded Objects now: 3685.
+Memory consumption went from 141.1 MB to 141.1 MB.
+Total: 4.811000 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.354100 ms MarkObjects: 4.015100 ms  DeleteObjects: 0.081100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147.380255 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L3.unity
+  artifactKey: Guid(1e24c5a1dde117e429b2aeb7379e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L3.unity using Guid(1e24c5a1dde117e429b2aeb7379e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bfbf0ed47e81df72e4c7a18a1cb7d0') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.399189 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L4.unity
+  artifactKey: Guid(d0bdcd07f5a196f40975f9f795e2bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L4.unity using Guid(d0bdcd07f5a196f40975f9f795e2bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da03fd40ebe52605e2f502cb977f7533') in 0.000835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.211621 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L5.unity
+  artifactKey: Guid(ae2921a095f22e1429949c8450a3e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L5.unity using Guid(ae2921a095f22e1429949c8450a3e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0139def268f1b664b729ce0ca1c034') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.277208 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L6.unity
+  artifactKey: Guid(2ad860e7fc9fd004eb9c6f9a58a17a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L6.unity using Guid(2ad860e7fc9fd004eb9c6f9a58a17a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f763fc8178f7b7d5733c428df56bb23e') in 0.000806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.584450 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L7.unity
+  artifactKey: Guid(e2b15fcca0f9efe44b9e59f2db3c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L7.unity using Guid(e2b15fcca0f9efe44b9e59f2db3c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1973c6650d125e7092137d8d9f941e69') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.892858 seconds.
+  path: Assets/Scenes/b_Medium Levels/Medium_L9.unity
+  artifactKey: Guid(429897f55bfaaef45a892192d77d745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/b_Medium Levels/Medium_L9.unity using Guid(429897f55bfaaef45a892192d77d745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ede5c6f5c6254b4380d7f03784c4c41') in 0.000788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.003 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.2 KB). Loaded Objects now: 3688.
+Memory consumption went from 143.1 MB to 143.0 MB.
+Total: 2.902200 ms (FindLiveObjects: 0.312600 ms CreateObjectMapping: 0.320400 ms MarkObjects: 2.219600 ms  DeleteObjects: 0.048600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.063 seconds
+Domain Reload Profiling: 1546ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1064ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.1 KB). Loaded Objects now: 3691.
+Memory consumption went from 145.2 MB to 145.2 MB.
+Total: 2.766600 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.255400 ms MarkObjects: 2.188600 ms  DeleteObjects: 0.052100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 7.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 1615ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.2 KB). Loaded Objects now: 3694.
+Memory consumption went from 147.2 MB to 147.1 MB.
+Total: 3.377800 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.253600 ms MarkObjects: 2.736100 ms  DeleteObjects: 0.102600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
