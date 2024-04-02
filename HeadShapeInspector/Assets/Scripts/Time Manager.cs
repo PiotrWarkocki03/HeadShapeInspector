@@ -7,6 +7,12 @@ public class TimerController : MonoBehaviour
     private float timer = 0f;
     public Text timerText; // Reference to the UI Text component
 
+
+    void Start()
+    {
+        isPaused = false;
+        Debug.Log("Timer started");
+    }
     void Update()
     {
         if (!isPaused)
