@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimerController : MonoBehaviour
+public class TimeManager : MonoBehaviour
 {
     private bool isPaused = true; // Start paused initially
     private float timer = 0f;
     public Text timerText; // Reference to the UI Text component
+
 
 
     void Start()

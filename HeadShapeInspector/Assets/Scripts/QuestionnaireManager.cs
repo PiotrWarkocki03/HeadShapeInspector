@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +15,10 @@ public class QuestionnaireManager : MonoBehaviour
     private int currentQuestionIndex = 0;
     public GameObject correctOption;
     public GameObject incorrectOption;
+
+    public TimeManager timeManager;
+
+    
     
 
     public void SelectAnswer(int answerIndex)
@@ -23,6 +28,7 @@ public class QuestionnaireManager : MonoBehaviour
             
             correctOption.SetActive(true);
             incorrectOption.SetActive(false);
+            timeManager.PauseTimer();
             
 
         }
@@ -31,6 +37,7 @@ public class QuestionnaireManager : MonoBehaviour
             
             incorrectOption.SetActive(true);
             correctOption.SetActive(false);
+            timeManager.PauseTimer();
 
         }
     }

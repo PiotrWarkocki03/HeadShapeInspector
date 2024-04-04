@@ -824,6 +824,7 @@ MonoBehaviour:
   - {fileID: 684061151}
   correctOption: {fileID: 159476806}
   incorrectOption: {fileID: 1341655373}
+  timeManager: {fileID: 1081241782}
 --- !u!114 &684061149 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7507494599243801117, guid: 67221605cd4ecf942b1e821e324ae033,

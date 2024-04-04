@@ -833,6 +833,7 @@ MonoBehaviour:
   - {fileID: 1895654325537158677}
   correctOption: {fileID: 1948889986}
   incorrectOption: {fileID: 648528414}
+  timeManager: {fileID: 1081241782}
 --- !u!1 &710848689
 GameObject:
   m_ObjectHideFlags: 0

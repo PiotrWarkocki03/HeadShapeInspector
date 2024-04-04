@@ -1148,6 +1148,7 @@ MonoBehaviour:
   - {fileID: 0}
   correctOption: {fileID: 0}
   incorrectOption: {fileID: 0}
+  timeManager: {fileID: 1081241782}
 --- !u!1 &710848689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2273,6 +2274,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650394736184765864, guid: b47a43808828a50409a0fb2902e70fd7,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Main Menu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

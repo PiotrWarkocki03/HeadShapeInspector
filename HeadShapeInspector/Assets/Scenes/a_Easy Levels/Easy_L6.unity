@@ -914,6 +914,7 @@ MonoBehaviour:
   - {fileID: 1895654325537158673}
   correctOption: {fileID: 1508566111}
   incorrectOption: {fileID: 2122391746}
+  timeManager: {fileID: 1081241782}
 --- !u!1 &687140869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100574377873697523, guid: 67221605cd4ecf942b1e821e324ae033,
