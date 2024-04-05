@@ -6,6 +6,8 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private Transform target;
     private Vector2 previousTouchPos;
 
+    [SerializeField] private float rotationSpeed =20f;
+
     void Update()
     {
         if (Input.touchCount == 1)
@@ -24,9 +26,9 @@ public class CameraMovement : MonoBehaviour
 
                 //rotates the camera around the object in the y axis
 
-                camera.transform.Rotate(Vector3.right, -touchDelta.y * 60);
+                camera.transform.Rotate(Vector3.right, -touchDelta.y * rotationSpeed);
                 //rotates the camera around the object in the x axis
-                camera.transform.Rotate(Vector3.up, touchDelta.x * 60, Space.World);
+                camera.transform.Rotate(Vector3.up, touchDelta.x * rotationSpeed, Space.World);
                 
                 camera.transform.Translate(Vector3.forward * -10);
 
