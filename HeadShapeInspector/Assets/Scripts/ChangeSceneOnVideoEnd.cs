@@ -15,6 +15,7 @@ public class ChangeSceneOnVideoEnd : MonoBehaviour
 
     void Start()
     {
+        isPaused = false;
         if (videoPlayer == null)
         {
             Debug.LogError("Video player is not assigned!");
@@ -43,14 +44,16 @@ public class ChangeSceneOnVideoEnd : MonoBehaviour
     {
         isPaused = true;
         videoPlayer.Pause(); // Pause the video
-        
+        Debug.Log("Pause Button Pressed");
+
     }
 
     void UnpauseVideo()
     {
         isPaused = false;
         videoPlayer.Play(); // Resume the video
-        
+        Debug.Log("Unpause Button Pressed");
+
     }
 
     void OnVideoEnd(VideoPlayer vp)
