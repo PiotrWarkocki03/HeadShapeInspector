@@ -158,6 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.2AI.HeadShapeInspector
     iPhone: com.2AI.HeadShapeInspector
   buildNumber:
     Standalone: 0
