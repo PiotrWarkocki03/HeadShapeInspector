@@ -1,0 +1,14 @@
+{
+	"difficulties": [
+	{
+	"mode": "Easy","level": 1,"starsAmount" : -1
+	
+	},
+	{
+	
+	"mode": "Easy","level": 2,"starsAmount" : -1
+	}
+
+
+	]
+}

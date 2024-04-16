@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AnswerButton : MonoBehaviour
+public class AnswerButtonTESTER : MonoBehaviour
 {
     public int answerIndex;
-    public QuestionnaireManager questionnaireManager;
+    public TEST qTest;
     
 
     void Start()
@@ -15,6 +15,6 @@ public class AnswerButton : MonoBehaviour
 
     void OnClick()
     {
-        questionnaireManager.SelectAnswer(answerIndex);
+        qTest.SelectAnswer(answerIndex);
     }
 }
