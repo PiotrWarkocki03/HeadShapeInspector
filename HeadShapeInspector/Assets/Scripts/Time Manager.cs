@@ -9,6 +9,9 @@ public class TimeManager : MonoBehaviour
 
 
 
+
+    public float getTimer() {  return timer; }
+
     void Start()
     {
         isPaused = false;
