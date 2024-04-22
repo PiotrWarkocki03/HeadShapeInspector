@@ -1,70 +1,7 @@
 {
-
-	"difficulties": [
-	{
-	"mode": "Easy","level": 1,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 2,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 3,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 4,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 5,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 6,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 7,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 8,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 9,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 10,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 11,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 12,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 13,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 14,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 15,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 16,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 17,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 18,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 19,"starsAmount" : -1
-	},
-	{
-	"mode": "Easy","level": 20,"starsAmount" : -1
-	}
-
-	]
-
+  "name": "John",
+  "age": 25,
+  "score": 100
 }
-
 
 

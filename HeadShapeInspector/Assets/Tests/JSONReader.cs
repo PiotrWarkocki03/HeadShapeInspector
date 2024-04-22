@@ -1,39 +1,42 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class JSONReader : MonoBehaviour
 {
+    // string >> mode.levelNumber   int >> starsAmount
+    public Dictionary<string,int> level;
+
     //reference to Json File
     public TextAsset textJSON;
-    
-    [System.Serializable]
-    public class Difficulties
+
+    [ContextMenu("Load Dictionary From JSON")]
+    void LoadDictionaryFromJsonFile()
     {
-        public string mode;
-        public int level;
-        public int starsAmount;
+        Debug.Log(textJSON.text);
+
+        // Convert the JSON string back to a dictionary
+        Dictionary<string, int> loadedDictionary = JsonUtility.FromJson<Dictionary<string, int>>(textJSON.text);
+
+        // Now you can use the loadedDictionary
+        Debug.Log("Loaded dictionary:");
+
+        Debug.Log(loadedDictionary["1.1"]);
+
+        foreach (KeyValuePair<string, int> kvp in loadedDictionary)
+        {
+            Debug.Log("Key: " + kvp.Key + ", Value: " + kvp.Value);
+        }
     }
 
-    [System.Serializable]
-    public class Difficulties1List
-    {
-        //array of all the levels inside the difficulty
-        public Difficulties[] difficulties;
-        
-    }
-    //intance of class
-    public Difficulties1List myDifficultiesList = new Difficulties1List();
-    
-    
-    
-   
-     // Start is called before the first frame update
+
+    // Start is called before the first frame update
     void Start()
     {
-        //
-        myDifficultiesList = JsonUtility.FromJson<Difficulties1List>(textJSON.text);
+        //        myDifficultiesList = JsonUtility.FromJson<Difficulties1List>(textJSON.text);
+
 
     }
 

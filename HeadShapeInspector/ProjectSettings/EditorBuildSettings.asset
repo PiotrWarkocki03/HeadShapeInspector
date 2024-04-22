@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/High Score.unity
     guid: 8206402dab6975644874b5790b3c499b
+  - enabled: 1
+    path: Assets/Scenes/Playerpref TEST.unity
+    guid: 20e79b56d026e5d449cd2c7bbf38883f
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: b75ece010c4f390458d0093dc1548d8e,
       type: 2}

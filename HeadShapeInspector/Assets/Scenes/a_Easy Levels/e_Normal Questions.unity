@@ -220,6 +220,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hint Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 689353723384442955, guid: 50a09e79dd9d0f741bc779a28b75a311,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 985339090407163072, guid: 50a09e79dd9d0f741bc779a28b75a311,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -362,6 +367,81 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 132732892}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &138787931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138787932}
+  - component: {fileID: 138787935}
+  - component: {fileID: 138787934}
+  - component: {fileID: 138787933}
+  m_Layer: 0
+  m_Name: JsonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138787932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138787931}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 965.54047, y: 450.3359, z: -3.7139893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &138787933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138787931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d6b4f8a34616d458ea901d3bec4391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &138787934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138787931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28bb8ac98b0d2064abac5191bb23c7b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &138787935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138787931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d061b554dcc65544b94ca51571efe11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonManager: {fileID: 138787934}
+  gameData:
+    levelsData: []
+  levelNumberLOCAL: 1.1
+  scoreLOCAL: 0
 --- !u!1 &161090835 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4815297537460969335, guid: d65669c0a6dda114184474ebdbb6e931,
@@ -1775,6 +1855,46 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1895654325537158671}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1635026559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635026561}
+  - component: {fileID: 1635026560}
+  m_Layer: 0
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1635026560
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635026559}
+  m_Enabled: 1
+--- !u!4 &1635026561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635026559}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 552.04535, y: 161.31093, z: -1.5453236}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1763569664 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6048279583766031137, guid: d65669c0a6dda114184474ebdbb6e931,
@@ -3684,6 +3804,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729987530785937930, guid: d65669c0a6dda114184474ebdbb6e931,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729987530785937930, guid: d65669c0a6dda114184474ebdbb6e931,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 138787935}
+    - target: {fileID: 4729987530785937930, guid: d65669c0a6dda114184474ebdbb6e931,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SaveScoreForLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729987530785937930, guid: d65669c0a6dda114184474ebdbb6e931,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729987530785937930, guid: d65669c0a6dda114184474ebdbb6e931,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7447172837242048680, guid: d65669c0a6dda114184474ebdbb6e931,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3806,3 +3951,5 @@ SceneRoots:
   - {fileID: 527538767}
   - {fileID: 710848692}
   - {fileID: 7651234675539888817}
+  - {fileID: 1635026561}
+  - {fileID: 138787932}
