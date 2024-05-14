@@ -15,8 +15,9 @@ public class GroupStarsManager : MonoBehaviour
     [SerializeField] private Sprite filledSprite;
 
     [SerializeField] private Image[] starsSprites;
+    [SerializeField] private Text[] starsTexts;
 
-    private GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
 
     [SerializeField] private int threshold_1;
     [SerializeField] private int threshold_2;
@@ -26,26 +27,17 @@ public class GroupStarsManager : MonoBehaviour
     [SerializeField] private Button button_h2;
     [SerializeField] private Button button_h3;
 
-
-    //Head1 not needed, it will always be playable
-    // [SerializeField] private GameObject Head1;
     [SerializeField] private GameObject Lock2;
     [SerializeField] private GameObject Lock3;
 
     [SerializeField] private GameObject Ui2;
     [SerializeField] private GameObject Ui3;
 
-    //[SerializeField] private Text Level1;
-    //[SerializeField] private Text Level2;
-    //[SerializeField] private Text Level3;
-
     // Start is called before the first frame update
     void Start()
     {
         emptySprite = Resources.Load<Sprite>("Sprites/Black Star");
         filledSprite = Resources.Load<Sprite>("Sprites/Yellow Star");
-
-        //starsSprites = this.GetComponentsInChildren<Image>();
 
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();
         Lock2.SetActive(true);
@@ -57,12 +49,10 @@ public class GroupStarsManager : MonoBehaviour
         button_h2.interactable = false;
         button_h3.interactable = false;
         updateStars();
-
      } 
      
     private void updateStars()
     {
-
         int starsAcc1 = 0;
         int starsAcc2 = 0;
         int starsAcc3 = 0;
@@ -107,6 +97,9 @@ public class GroupStarsManager : MonoBehaviour
         Debug.Log("TOTAL stars in Level2: " + starsAcc2.ToString());
         Debug.Log("TOTAL stars in Level3: " + starsAcc3.ToString());
 
+        starsTexts[0].text = starsAcc1.ToString() + "/60";
+        starsTexts[1].text = starsAcc2.ToString() + "/60";
+        starsTexts[2].text = starsAcc3.ToString() + "/60";
 
         foreach (var item in starsSprites)
         {
@@ -130,14 +123,11 @@ public class GroupStarsManager : MonoBehaviour
         if (starsAcc1 == threshold_3)
         {
             starsSprites[2].sprite = filledSprite;
-            
         }
-
         if (starsAcc2 >= threshold_1)
         {
             starsSprites[3].sprite = filledSprite;
         }
-
         if (starsAcc2 >= threshold_2)
         {
             starsSprites[4].sprite = filledSprite;
@@ -146,32 +136,23 @@ public class GroupStarsManager : MonoBehaviour
             button_h3.interactable = true;
             Debug.Log("LEVEL3 UNLOCKED!");
         }
-
         if (starsAcc2 == threshold_3)
         {
             starsSprites[5].sprite = filledSprite;
 
         }
-
         if (starsAcc3 >= threshold_1)
         {
-            starsSprites[6].sprite = filledSprite;
-            
+            starsSprites[6].sprite = filledSprite;        
         }
-
         if (starsAcc3 >= threshold_2)
         {
             starsSprites[7].sprite = filledSprite;
-            
-
         }
 
         if (starsAcc3 == threshold_3)
         {
             starsSprites[8].sprite = filledSprite;
-
         }
     }
-
-
 }

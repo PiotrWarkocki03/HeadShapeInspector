@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
         LevelData tempLevel = gameData.levelsData.Find(data => data.levelNumber == l);
 
-        int i = tempLevel != null ? tempLevel.levelScore : -333; // Retorns -333 if it doesn't find the level at all
+        int i = tempLevel != null ? tempLevel.levelScore : -333; // Returns -333 if it doesn't find the level at all
 
         //Debug.Log("Level " + l.ToString() + " score: " + i.ToString());
 
