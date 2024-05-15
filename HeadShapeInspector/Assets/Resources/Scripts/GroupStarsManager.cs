@@ -63,6 +63,7 @@ public class GroupStarsManager : MonoBehaviour
         {
             levelScore = gameManager.GetScoreForLevel(item);
 
+
             if (levelScore > -1)
             {
                 starsAcc1 = starsAcc1 + levelScore;

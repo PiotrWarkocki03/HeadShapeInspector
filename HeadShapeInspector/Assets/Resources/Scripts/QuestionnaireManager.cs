@@ -36,13 +36,6 @@ public class QuestionnaireManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI usedRetry;
     [SerializeField] TextMeshProUGUI timeLimitReached;
     
-    //public GameObject tick1;
-    //public GameObject x1;
-    //public GameObject tick2;
-    //public GameObject x2;
-    //public GameObject tick3;
-    //public GameObject x3;
-
     public GameManager gameManager;
 
     private string currentLevelName;
@@ -54,10 +47,7 @@ public class QuestionnaireManager : MonoBehaviour
         timesUp = false;
         starsCount = 3;
         timeLimit = 10f;
-        //tick1.SetActive(true);
-        //tick2.SetActive(true);
-        //tick3.SetActive(true);
-
+        
         currentLevelName = SceneManager.GetActiveScene().name;
 
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();
@@ -71,8 +61,7 @@ public class QuestionnaireManager : MonoBehaviour
             starsCount--;
             updateStars();
             usedHint.fontStyle = FontStyles.Strikethrough;
-            //tick1.SetActive(false);
-           // x1.SetActive(true);
+            
         }
     }
 
@@ -84,8 +73,7 @@ public class QuestionnaireManager : MonoBehaviour
             starsCount--;
             updateStars();
             usedRetry.fontStyle = FontStyles.Strikethrough;
-            //tick2.SetActive(false);
-            //x2.SetActive(true);
+            
         }
     }
 
@@ -154,8 +142,7 @@ public class QuestionnaireManager : MonoBehaviour
                 starsCount--;
                 updateStars();
                 timeLimitReached.fontStyle = FontStyles.Strikethrough;
-                //tick3.SetActive(false);
-                //x3.SetActive(true);
+                
                 timesUp = true;
             }
         }

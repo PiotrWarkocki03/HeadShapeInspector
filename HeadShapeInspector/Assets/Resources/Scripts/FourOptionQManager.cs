@@ -15,35 +15,27 @@ public class FourOptionQManager : MonoBehaviour
     private int currentQuestionIndex = 0;
     public GameObject correctOption;
     public GameObject incorrectOption;
-
-    //public TimeManager timeManager;
     
     public int starsCount;
-
-    [SerializeField] bool retryUsed; //number of attempts
-    [SerializeField] bool hintUsed;
-    [SerializeField] bool timesUp;
+    
+    [SerializeField] bool q1Correct; //number of attempts
+    [SerializeField] bool q2Correct;
+    [SerializeField] bool q3Correct;
 
     public Image[] stars;
-    public Image[] results;
+    public Image[] resultsCorrectPanel;
+    public Image[] resultsInCorrectPanel;
 
     public Sprite filledStar;
     public Sprite emptyStar;
 
-    public float timeLimit;
+    public GameObject q1;
+    public GameObject q2;
+    public GameObject q3;
 
-    [SerializeField] TextMeshProUGUI usedHint;
-    [SerializeField] TextMeshProUGUI usedRetry;
-    [SerializeField] TextMeshProUGUI timeLimitReached;
-    
-    public GameObject tick1;
-    public GameObject x1;
-    public GameObject tick2;
-    public GameObject x2;
-    public GameObject tick3;
-    public GameObject x3;
-
-    
+    [SerializeField] TextMeshProUGUI q1Text;
+    [SerializeField] TextMeshProUGUI q2Text;
+    [SerializeField] TextMeshProUGUI q3Text;
 
     public GameManager gameManager;
 
@@ -51,68 +43,109 @@ public class FourOptionQManager : MonoBehaviour
 
     private void Start()
     {
-        //retryUsed = false;
-        //hintUsed = false;
-        //timesUp = false;
+
+        q1Correct = false;
+        q2Correct = false;
+        q3Correct = false;
         starsCount = 3;
-        //timeLimit = 10f;
-        tick1.SetActive(true);
-        tick2.SetActive(true);
-        tick3.SetActive(true);
+        
+        q1.SetActive(true);
+        q2.SetActive(false);
+        q3.SetActive(false);
 
         currentLevelName = SceneManager.GetActiveScene().name;
-
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();
     }
 
-    public void UseHint()
+    public void incorrectAnswer1()
     {
-        if(hintUsed == false)
-        {
-            hintUsed = true;
-            starsCount--;
-            updateStars();
-            usedHint.fontStyle = FontStyles.Strikethrough;
-            tick1.SetActive(false);
-            x1.SetActive(true);
-        }
+        q1Correct = false;
+        q1Text.fontStyle = FontStyles.Strikethrough;
+        Debug.Log("incorrect!");
+        q1.SetActive(false);
+        q2.SetActive(true);
+        
+        starsCount--;
+        updateStars();
+    }
+    public void incorrectAnswer2()
+    {
+        q2Correct = false;
+        q2Text.fontStyle = FontStyles.Strikethrough;
+        Debug.Log("incorrect!");
+        q2.SetActive(false);
+        q3.SetActive(true);      
+        starsCount--;
+        updateStars();
     }
 
-    public void UseRetry()
+    public void incorrectAnswer3()
     {
-        if(retryUsed == false)
+        q3Correct = false;
+        q3Text.fontStyle = FontStyles.Strikethrough;
+        Debug.Log("incorrect!");
+        
+        starsCount--;
+        updateStars();
+        
+        if(starsCount <= 1 )
         {
-            retryUsed = true;
-            starsCount--;
-            updateStars();
-            usedRetry.fontStyle = FontStyles.Strikethrough;
-            tick2.SetActive(false);
-            x2.SetActive(true);
+            incorrectOption.SetActive(true);
+            Debug.Log("STARS:" + starsCount);
+
+        }
+        else
+        {
+            correctOption.SetActive(true);
+            Debug.Log("STARS:" + starsCount);
+        }
+        
+    }
+    public void correctAnswer1()
+    {
+        Debug.Log("correct!");
+        q1Correct = true;
+        q1.SetActive(false);
+        q2.SetActive(true);   
+    }
+    public void correctAnswer2()
+    {
+        Debug.Log("correct!");
+        q2Correct = true;
+        q2.SetActive(false);
+        q3.SetActive(true);
+    }
+    public void correctAnswer3()
+    {
+        Debug.Log("correct!");
+        q3Correct = true;
+        q2.SetActive(false);
+        q3.SetActive(true);
+
+        if (starsCount <= 1)
+        {
+            incorrectOption.SetActive(true);
+            Debug.Log("STARS:"+starsCount);
+        }
+        else
+        {
+            correctOption.SetActive(true);
+            Debug.Log("STARS:" + starsCount);
         }
     }
-
     public void SelectAnswer(int answerIndex)
     {
         if (answerIndex == GetCorrectAnswerIndex())
         {
-            //correctOption.SetActive(true);
-            //incorrectOption.SetActive(false);
-
+            
             int i = gameManager.GetScoreForLevel(currentLevelName);
 
             if (starsCount > i)
             {
                 gameManager.SaveScoreForLevel(currentLevelName,starsCount);
             }
-
         }
-        else
-        {
-            //incorrectOption.SetActive(true);
-            //correctOption.SetActive(false);
-        }
-        //timeManager.PauseTimer();
-
+        
     }
     private int GetCorrectAnswerIndex()
     {
@@ -137,34 +170,26 @@ public class FourOptionQManager : MonoBehaviour
             stars[i].sprite = filledStar;
         }
         
-        foreach (var item in results)
+        foreach (var item in resultsCorrectPanel)
         {
             item.sprite = emptyStar;
         }
 
         for (int i = 0; i < starsCount; i++)
         {
-            results[i].sprite = filledStar;
+            resultsCorrectPanel[i].sprite = filledStar;
+        }
+
+        foreach (var item in resultsInCorrectPanel)
+        {
+            item.sprite = emptyStar;
+        }
+
+        for (int i = 0; i < starsCount; i++)
+        {
+            resultsInCorrectPanel[i].sprite = filledStar;
         }
     }
-    /*private void TimeCheck()
-    {
-        if(timesUp == false)
-        {
-            if (timeManager.getTimer() > timeLimit)
-            {
-                starsCount--;
-                updateStars();
-                timeLimitReached.fontStyle = FontStyles.Strikethrough;
-                tick3.SetActive(false);
-                x3.SetActive(true);
-                timesUp = true;
-            }
-        }
-    }*/
 
-    /*private void Update()
-    {
-        TimeCheck();
-    }*/
+    
 }
