@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class LevelPlayed : MonoBehaviour
 {
     public Image imageToChange;
-    public Text textToChange;
+    //public Text textToChange;
     public float minOpacity = 0.5f; // 50%
     public float maxOpacity = 1.0f; // 100%
     private bool hasOpacityChanged = false; // Flag to track if opacity has already changed
@@ -12,7 +12,7 @@ public class LevelPlayed : MonoBehaviour
     void Start()
     {
         // Ensure image and text are assigned
-        if (imageToChange == null || textToChange == null)
+        if (imageToChange == null /*|| textToChange == null*/)
         {
             Debug.LogError("No image or text assigned to ChangeImageAndTextOpacity script on GameObject: " + gameObject.name);
             enabled = false; // Disable the script if no image or text is assigned
@@ -38,7 +38,7 @@ public class LevelPlayed : MonoBehaviour
         }
 
         float savedTextOpacity = PlayerPrefs.GetFloat(gameObject.name + "_TextOpacity", minOpacity);
-        ApplyTextOpacity(savedTextOpacity);
+        //ApplyTextOpacity(savedTextOpacity);
     }
 
     public void ChangeOpacity()
@@ -46,7 +46,7 @@ public class LevelPlayed : MonoBehaviour
         if (!hasOpacityChanged)
         {
             ApplyImageOpacity(maxOpacity);
-            ApplyTextOpacity(maxOpacity);
+            //ApplyTextOpacity(maxOpacity);
             hasOpacityChanged = true;
 
             // Save the opacity value for both image and text
@@ -67,7 +67,7 @@ public class LevelPlayed : MonoBehaviour
         }
     }
 
-    private void ApplyTextOpacity(float opacity)
+    /*private void ApplyTextOpacity(float opacity)
     {
         // Apply opacity to the text
         if (textToChange != null)
@@ -76,7 +76,7 @@ public class LevelPlayed : MonoBehaviour
             textColor.a = opacity;
             textToChange.color = textColor;
         }
-    }
+    }*/
 
     // Clear PlayerPrefs if needed
     public void ClearPlayerPrefs()

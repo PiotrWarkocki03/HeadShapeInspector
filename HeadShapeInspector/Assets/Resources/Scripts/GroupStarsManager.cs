@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,6 +34,11 @@ public class GroupStarsManager : MonoBehaviour
     [SerializeField] private GameObject Ui2;
     [SerializeField] private GameObject Ui3;
 
+    
+
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +57,7 @@ public class GroupStarsManager : MonoBehaviour
         updateStars();
      } 
      
-    private void updateStars()
+    public void updateStars()
     {
         int starsAcc1 = 0;
         int starsAcc2 = 0;
@@ -118,6 +124,7 @@ public class GroupStarsManager : MonoBehaviour
             Ui2.SetActive(true);
             Lock2.SetActive(false);
             button_h2.interactable = true;
+            //warningButton1.interactable = false;
             Debug.Log("LEVEL2 UNLOCKED!");
         }
 
@@ -135,6 +142,7 @@ public class GroupStarsManager : MonoBehaviour
             Ui3.SetActive(true);
             Lock3.SetActive(false);
             button_h3.interactable = true;
+            //warningButton1.interactable = false;
             Debug.Log("LEVEL3 UNLOCKED!");
         }
         if (starsAcc2 == threshold_3)
@@ -155,5 +163,11 @@ public class GroupStarsManager : MonoBehaviour
         {
             starsSprites[8].sprite = filledSprite;
         }
+
+        
     }
+
+    
+
+
 }
