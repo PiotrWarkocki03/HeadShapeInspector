@@ -24,7 +24,7 @@ public class FourOptionQManager : MonoBehaviour
 
     public Image[] stars;
     public Image[] resultsCorrectPanel;
-    public Image[] resultsInCorrectPanel;
+    public Image[] resultsIncorrectPanel;
 
     public Sprite filledStar;
     public Sprite emptyStar;
@@ -180,14 +180,14 @@ public class FourOptionQManager : MonoBehaviour
             resultsCorrectPanel[i].sprite = filledStar;
         }
 
-        foreach (var item in resultsInCorrectPanel)
+        foreach (var item in resultsIncorrectPanel)
         {
             item.sprite = emptyStar;
         }
 
         for (int i = 0; i < starsCount; i++)
         {
-            resultsInCorrectPanel[i].sprite = filledStar;
+            resultsIncorrectPanel[i].sprite = filledStar;
         }
     }
 

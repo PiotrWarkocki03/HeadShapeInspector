@@ -34,10 +34,7 @@ public class GroupStarsManager : MonoBehaviour
     [SerializeField] private GameObject Ui2;
     [SerializeField] private GameObject Ui3;
 
-    
-
-    
-
+   
 
     // Start is called before the first frame update
     void Start()
@@ -54,9 +51,12 @@ public class GroupStarsManager : MonoBehaviour
 
         button_h2.interactable = false;
         button_h3.interactable = false;
+       
         updateStars();
      } 
      
+
+    
     public void updateStars()
     {
         int starsAcc1 = 0;
