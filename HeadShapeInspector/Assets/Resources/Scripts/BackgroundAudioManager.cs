@@ -25,11 +25,6 @@ public class BackgroundAudioManager : MonoBehaviour
         LoadVolumeSettings();
     }
 
-    
-
-    
-
-
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
