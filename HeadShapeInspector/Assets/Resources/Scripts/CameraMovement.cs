@@ -7,9 +7,11 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private Camera camera;
     public Transform target;
     private Vector2 previousTouchPos;
+    public Button resetButton;
+    public Slider rotationSlider;
+    public float rotationSpeed;
+    private const string RotationSpeedKey = "RotationSpeed";
 
-    [SerializeField] private float rotationSpeed = 20f;
-    
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -22,9 +24,26 @@ public class CameraMovement : MonoBehaviour
 
     void Start()
     {
+        rotationSpeed = PlayerPrefs.GetFloat(RotationSpeedKey, 10f); // Default to 1 if no value is saved
+        rotationSlider.value = rotationSpeed;
+        rotationSlider.onValueChanged.AddListener(OnRotationSpeedChanged);
         AssignNewTarget();
+        resetButton.onClick.AddListener(OnResetButtonClicked);
     }
+    void OnRotationSpeedChanged(float value)
+    {
+        rotationSpeed = value;
+        PlayerPrefs.SetFloat(RotationSpeedKey, rotationSpeed);
+    }
+    public void OnResetButtonClicked()
+    {
+        // Delete the rotation speed key from PlayerPrefs
+        PlayerPrefs.DeleteKey(RotationSpeedKey);
 
+        // Reset the rotation speed to a default value (e.g., 1) and update the slider
+        rotationSpeed = 10f;
+        rotationSlider.value = rotationSpeed;
+    }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         AssignNewTarget();
@@ -45,11 +64,20 @@ public class CameraMovement : MonoBehaviour
                 break;
             }
         }
-
-        if (target == null)
+        if (target != null)
+        {
+            FocusOnTarget();
+        }
+        else
         {
             Debug.LogError("No suitable GameObject on the 'Baby' layer found in the scene.");
         }
+    }
+    void FocusOnTarget()
+    {
+        // Ensure the camera is correctly positioned and oriented to focus on the target
+        camera.transform.position = target.position + new Vector3(0, 1, -10); // Adjust as needed
+        camera.transform.LookAt(target);
     }
 
     void Update()
@@ -80,7 +108,14 @@ public class CameraMovement : MonoBehaviour
                 previousTouchPos = touch.position;
             }
         }
+
+        //transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
     }
 
-    
+    void OnApplicationQuit()
+    {
+        PlayerPrefs.Save();
+    }
+
+
 }

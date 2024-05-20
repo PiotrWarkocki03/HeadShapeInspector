@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 
 public class BackgroundAudioManager : MonoBehaviour
 {
@@ -24,9 +26,36 @@ public class BackgroundAudioManager : MonoBehaviour
         LoadVolumeSettings();
     }
 
+ 
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        AssignNewTarget();
+    }
+
+    void AssignNewTarget()
+    {
+        // Define the layer mask for the "Baby" layer
+        int layerMask = 1 << LayerMask.NameToLayer("Volume");
+
+        // Find all GameObjects in the "Baby" layer
+        GameObject[] allObjects = FindObjectsOfType<GameObject>();
+        foreach (GameObject obj in allObjects)
+        {
+            
+        }
+
+        if (volumeSlider == null)
+        {
+            Debug.LogError("No suitable GameObject on the 'Baby' layer found in the scene.");
+        }
+    }
+
 
     private void Start()
     {
+
+        AssignNewTarget();
         // Find the GameObject named "VolumeSlider" and get its Slider component
         GameObject sliderObject = GameObject.Find("VolumeSlider");
         if (sliderObject != null)
