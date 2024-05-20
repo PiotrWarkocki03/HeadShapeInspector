@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - GameMusic
+  - Sensitivity
+  - JsonManager
+  - Volume
+  - BackgroundMusic
+  - Baby
+  - Reset
   layers:
   - Default
   - TransparentFX

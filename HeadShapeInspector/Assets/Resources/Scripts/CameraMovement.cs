@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     private Vector2 previousTouchPos;
     public Button resetButton;
     public Slider rotationSlider;
-    public float rotationSpeed;
+    [SerializeField] private float rotationSpeed = 10f; // Default rotation speed
     private const string RotationSpeedKey = "RotationSpeed";
 
     void OnEnable()
@@ -24,41 +24,59 @@ public class CameraMovement : MonoBehaviour
 
     void Start()
     {
-        rotationSpeed = PlayerPrefs.GetFloat(RotationSpeedKey, 10f); // Default to 1 if no value is saved
-        rotationSlider.value = rotationSpeed;
-        rotationSlider.onValueChanged.AddListener(OnRotationSpeedChanged);
-        AssignNewTarget();
-        resetButton.onClick.AddListener(OnResetButtonClicked);
+        //AssignSliderTarget();
+        LoadRotationSpeed();
+        if (rotationSlider != null)
+        {
+            rotationSlider.value = rotationSpeed;
+            rotationSlider.onValueChanged.AddListener(OnRotationSpeedChanged);
+        }
+        if (resetButton != null)
+        {
+            resetButton.onClick.AddListener(OnResetButtonClicked);
+        }
     }
+
     void OnRotationSpeedChanged(float value)
     {
         rotationSpeed = value;
         PlayerPrefs.SetFloat(RotationSpeedKey, rotationSpeed);
+        PlayerPrefs.Save();
     }
+
     public void OnResetButtonClicked()
     {
-        // Delete the rotation speed key from PlayerPrefs
         PlayerPrefs.DeleteKey(RotationSpeedKey);
-
-        // Reset the rotation speed to a default value (e.g., 1) and update the slider
-        rotationSpeed = 10f;
-        rotationSlider.value = rotationSpeed;
+        rotationSpeed = 10f; // Reset to default value
+        if (rotationSlider != null)
+        {
+            rotationSlider.value = rotationSpeed;
+        }
     }
+
+    void LoadRotationSpeed()
+    {
+        rotationSpeed = PlayerPrefs.GetFloat(RotationSpeedKey, 10f); // Default to 10 if no value is saved
+        if (rotationSlider != null)
+        {
+            rotationSlider.value = rotationSpeed;
+        }
+    }
+
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        AssignNewTarget();
+        LoadRotationSpeed(); // Load rotation speed when scene is loaded
+        AssignBabyTarget();
+        AssignSliderTarget();
+        AssignResetButtonTarget();
     }
 
-    void AssignNewTarget()
+    void AssignBabyTarget()
     {
-        // Define the layer mask for the "Baby" layer
-        int layerMask = 1 << LayerMask.NameToLayer("Baby");
-
-        // Find all GameObjects in the "Baby" layer
-        GameObject[] allObjects = FindObjectsOfType<GameObject>();
+        GameObject[] allObjects = GameObject.FindGameObjectsWithTag("Baby");
         foreach (GameObject obj in allObjects)
         {
-            if (obj.layer == LayerMask.NameToLayer("Baby") && obj != camera.gameObject) // Check if the object is on the "Baby" layer and is not the camera
+            if (obj != camera.gameObject)
             {
                 target = obj.transform;
                 break;
@@ -67,16 +85,54 @@ public class CameraMovement : MonoBehaviour
         if (target != null)
         {
             FocusOnTarget();
+            Debug.Log("Baby found");
         }
         else
         {
-            Debug.LogError("No suitable GameObject on the 'Baby' layer found in the scene.");
+            Debug.LogWarning("No suitable GameObject found in the scene.");
         }
     }
+
+    void AssignSliderTarget()
+    {
+        GameObject sliderObject = GameObject.FindGameObjectWithTag("Sensitivity");
+        if (sliderObject != null)
+        {
+            rotationSlider = sliderObject.GetComponent<Slider>();
+            if (rotationSlider != null)
+            {
+                rotationSlider.value = rotationSpeed;
+                rotationSlider.onValueChanged.AddListener(OnRotationSpeedChanged);
+                Debug.Log("Slider found and assigned.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Slider GameObject not found in the scene.");
+        }
+    }
+
+    void AssignResetButtonTarget()
+    {
+        GameObject buttonObject = GameObject.FindGameObjectWithTag("Reset");
+        if (buttonObject != null)
+        {
+            resetButton = buttonObject.GetComponent<Button>();
+            if (resetButton != null)
+            {
+                resetButton.onClick.AddListener(OnResetButtonClicked);
+                Debug.Log("Reset button found and assigned.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Reset button GameObject not found in the scene.");
+        }
+    }
+
     void FocusOnTarget()
     {
-        // Ensure the camera is correctly positioned and oriented to focus on the target
-        camera.transform.position = target.position + new Vector3(0, 1, -10); // Adjust as needed
+        camera.transform.position = target.position + new Vector3(0, 1, -10);
         camera.transform.LookAt(target);
     }
 
@@ -98,9 +154,7 @@ public class CameraMovement : MonoBehaviour
 
                 camera.transform.position = target.position;
 
-                // Rotate the camera around the object in the y axis
                 camera.transform.Rotate(Vector3.right, -touchDelta.y * rotationSpeed);
-                // Rotate the camera around the object in the x axis
                 camera.transform.Rotate(Vector3.up, touchDelta.x * rotationSpeed, Space.World);
 
                 camera.transform.Translate(Vector3.forward * -10);
@@ -108,14 +162,5 @@ public class CameraMovement : MonoBehaviour
                 previousTouchPos = touch.position;
             }
         }
-
-        //transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
     }
-
-    void OnApplicationQuit()
-    {
-        PlayerPrefs.Save();
-    }
-
-
 }

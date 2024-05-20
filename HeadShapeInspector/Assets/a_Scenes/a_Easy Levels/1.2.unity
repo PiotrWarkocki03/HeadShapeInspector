@@ -1566,6 +1566,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 1212161393}
   target: {fileID: 0}
+  resetButton: {fileID: 0}
+  rotationSlider: {fileID: 0}
   rotationSpeed: 20
 --- !u!1001 &1219933951
 PrefabInstance:
@@ -1665,6 +1667,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4e3198510809904bad4864ce20ca280,
+        type: 3}
+      propertyPath: m_TagString
+      value: Baby
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: a4e3198510809904bad4864ce20ca280,
         type: 3}
