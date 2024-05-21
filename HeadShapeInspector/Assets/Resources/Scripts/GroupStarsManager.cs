@@ -6,25 +6,29 @@ using UnityEngine.UI;
 
 public class GroupStarsManager : MonoBehaviour
 {
+
+    //String arrays for each level difficulty
     [SerializeField] private string[] g1_levelNames;
-
     [SerializeField] private string[] g2_levelNames;
-
     [SerializeField] private string[] g3_levelNames;
 
+    //Sprite arrays for empty and filled sprites
     [SerializeField] private Sprite emptySprite;
     [SerializeField] private Sprite filledSprite;
 
+    //Image arrays for the star sprites 
     [SerializeField] private Image[] starsSprites;
+    //Text arrays for the star texts
     [SerializeField] private Text[] starsTexts;
+
 
     [SerializeField] private GameManager gameManager;
 
+    
     [SerializeField] private int threshold_1;
     [SerializeField] private int threshold_2;
     [SerializeField] private int threshold_3;
 
-    //[SerializeField] private Button h1;
     [SerializeField] private Button button_h2;
     [SerializeField] private Button button_h3;
 
@@ -34,9 +38,7 @@ public class GroupStarsManager : MonoBehaviour
     [SerializeField] private GameObject Ui2;
     [SerializeField] private GameObject Ui3;
 
-   
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         emptySprite = Resources.Load<Sprite>("Sprites/Black Star");
@@ -51,29 +53,25 @@ public class GroupStarsManager : MonoBehaviour
 
         button_h2.interactable = false;
         button_h3.interactable = false;
-       
+        
         updateStars();
-     } 
-     
+    }
 
-    
     public void updateStars()
     {
         int starsAcc1 = 0;
         int starsAcc2 = 0;
         int starsAcc3 = 0;
-         
+
         int levelScore;
 
         foreach (var item in g1_levelNames)
         {
             levelScore = gameManager.GetScoreForLevel(item);
 
-
             if (levelScore > -1)
             {
-                starsAcc1 = starsAcc1 + levelScore;
-                
+                starsAcc1 += levelScore;
                 Debug.Log(levelScore);
             }
         }
@@ -84,7 +82,7 @@ public class GroupStarsManager : MonoBehaviour
 
             if (levelScore > -1)
             {
-                starsAcc2 = starsAcc2 + levelScore;
+                starsAcc2 += levelScore;
                 Debug.Log(levelScore);
             }
         }
@@ -95,15 +93,16 @@ public class GroupStarsManager : MonoBehaviour
 
             if (levelScore > -1)
             {
-                starsAcc3 = starsAcc3 + levelScore;
+                starsAcc3 += levelScore;
                 Debug.Log(levelScore);
             }
         }
+        //Prints the star amount for each difficulty in the Unity Console
+        Debug.Log("TOTAL stars in Difficulty1: " + starsAcc1);
+        Debug.Log("TOTAL stars in Difficulty2: " + starsAcc2);
+        Debug.Log("TOTAL stars in Difficulty3: " + starsAcc3);
 
-        Debug.Log("TOTAL stars in Level1: " + starsAcc1.ToString());
-        Debug.Log("TOTAL stars in Level2: " + starsAcc2.ToString());
-        Debug.Log("TOTAL stars in Level3: " + starsAcc3.ToString());
-
+        //Prints the star amount for each difficulty in starsText field in the DifficultySelector scene
         starsTexts[0].text = starsAcc1.ToString() + "/60";
         starsTexts[1].text = starsAcc2.ToString() + "/60";
         starsTexts[2].text = starsAcc3.ToString() + "/60";
@@ -124,7 +123,6 @@ public class GroupStarsManager : MonoBehaviour
             Ui2.SetActive(true);
             Lock2.SetActive(false);
             button_h2.interactable = true;
-            //warningButton1.interactable = false;
             Debug.Log("LEVEL2 UNLOCKED!");
         }
 
@@ -142,17 +140,15 @@ public class GroupStarsManager : MonoBehaviour
             Ui3.SetActive(true);
             Lock3.SetActive(false);
             button_h3.interactable = true;
-            //warningButton1.interactable = false;
             Debug.Log("LEVEL3 UNLOCKED!");
         }
         if (starsAcc2 == threshold_3)
         {
             starsSprites[5].sprite = filledSprite;
-
         }
         if (starsAcc3 >= threshold_1)
         {
-            starsSprites[6].sprite = filledSprite;        
+            starsSprites[6].sprite = filledSprite;
         }
         if (starsAcc3 >= threshold_2)
         {
@@ -163,11 +159,12 @@ public class GroupStarsManager : MonoBehaviour
         {
             starsSprites[8].sprite = filledSprite;
         }
-
-        
     }
 
     
+
+
+
 
 
 }

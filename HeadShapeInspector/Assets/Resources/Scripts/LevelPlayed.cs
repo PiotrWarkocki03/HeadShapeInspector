@@ -4,17 +4,16 @@ using UnityEngine.UI;
 public class LevelPlayed : MonoBehaviour
 {
     public Image imageToChange;
-    //public Text textToChange;
     public float minOpacity = 0.5f; // 50%
     public float maxOpacity = 1.0f; // 100%
-    private bool hasOpacityChanged = false; // Flag to track if opacity has already changed
+    private bool hasOpacityChanged = false; // bool to  track if opacity has already changed
 
     void Start()
     {
         // Ensure image and text are assigned
-        if (imageToChange == null /*|| textToChange == null*/)
+        if (imageToChange == null)
         {
-            Debug.LogError("No image or text assigned to ChangeImageAndTextOpacity script on GameObject: " + gameObject.name);
+            Debug.LogError("No image or text assigned to LevelPlayed script on GameObject: " + gameObject.name);
             enabled = false; // Disable the script if no image or text is assigned
         }
 
@@ -37,8 +36,7 @@ public class LevelPlayed : MonoBehaviour
             hasOpacityChanged = true;
         }
 
-        float savedTextOpacity = PlayerPrefs.GetFloat(gameObject.name + "_TextOpacity", minOpacity);
-        //ApplyTextOpacity(savedTextOpacity);
+        
     }
 
     public void ChangeOpacity()
@@ -46,12 +44,10 @@ public class LevelPlayed : MonoBehaviour
         if (!hasOpacityChanged)
         {
             ApplyImageOpacity(maxOpacity);
-            //ApplyTextOpacity(maxOpacity);
             hasOpacityChanged = true;
 
             // Save the opacity value for both image and text
             PlayerPrefs.SetFloat(gameObject.name + "_ImageOpacity", maxOpacity); // Use the GameObject's name as a unique key
-            PlayerPrefs.SetFloat(gameObject.name + "_TextOpacity", maxOpacity);
             PlayerPrefs.Save();
         }
     }
@@ -67,22 +63,12 @@ public class LevelPlayed : MonoBehaviour
         }
     }
 
-    /*private void ApplyTextOpacity(float opacity)
-    {
-        // Apply opacity to the text
-        if (textToChange != null)
-        {
-            Color textColor = textToChange.color;
-            textColor.a = opacity;
-            textToChange.color = textColor;
-        }
-    }*/
+    
 
     // Clear PlayerPrefs if needed
     public void ClearPlayerPrefs()
     {
         PlayerPrefs.DeleteKey(gameObject.name + "_ImageOpacity");
-        PlayerPrefs.DeleteKey(gameObject.name + "_TextOpacity");
         PlayerPrefs.Save();
         hasOpacityChanged = false; // Reset the flag
     }

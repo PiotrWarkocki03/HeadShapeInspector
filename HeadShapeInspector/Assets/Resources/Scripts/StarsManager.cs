@@ -18,9 +18,11 @@ public class StarsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Load the Black And Yellow Star sprites in the Sprite slots in the inspectors
         emptySprite = Resources.Load<Sprite>("Sprites/Black Star");
         filledSprite = Resources.Load<Sprite>("Sprites/Yellow Star");
         
+
         starsSprites = this.GetComponentsInChildren<Image>();
 
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();

@@ -55,23 +55,30 @@ public class QuestionnaireManager : MonoBehaviour
 
     public void UseHint()
     {
-        if(hintUsed == false)
+        //If hint used change the bool to true and take away star from the current Level
+        if (hintUsed == false)
         {
             hintUsed = true;
             starsCount--;
+            //calls the updateStars Method
             updateStars();
+            //Add a strikethrough the text
             usedHint.fontStyle = FontStyles.Strikethrough;
             
         }
     }
 
+    
     public void UseRetry()
     {
+        //If retry is used change the bool to true and take away star from the current Level
         if(retryUsed == false)
         {
             retryUsed = true;
             starsCount--;
+            //calls the updateStars Method
             updateStars();
+            //Add a strikethrough the text
             usedRetry.fontStyle = FontStyles.Strikethrough;
             
         }
@@ -135,12 +142,15 @@ public class QuestionnaireManager : MonoBehaviour
     }
     private void TimeCheck()
     {
+        //If the timer is up the player loses a star in that level 
         if(timesUp == false)
         {
             if (timeManager.getTimer() > timeLimit)
             {
                 starsCount--;
+                //calls the updateStars Method
                 updateStars();
+                //Add a strikethrough the texts
                 timeLimitReached.fontStyle = FontStyles.Strikethrough;
                 
                 timesUp = true;

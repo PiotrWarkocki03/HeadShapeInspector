@@ -7,9 +7,6 @@ public class TimeManager : MonoBehaviour
     private float timer = 0f;
     public Text timerText; // Reference to the UI Text component
 
-
-
-
     public float getTimer() {  return timer; }
 
     void Start()
@@ -38,19 +35,20 @@ public class TimeManager : MonoBehaviour
             timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
     }
-
+    //Stars Timer
     public void StartTimer()
     {
         isPaused = false;
         Debug.Log("Timer started");
     }
-
+    //Pauses Timer
     public void PauseTimer()
     {
         isPaused = true;
         Debug.Log("Timer paused");
     }
 
+    //Unpauses Timer
     public void UnpauseTimer()
     {
         isPaused = false;

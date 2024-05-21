@@ -16,13 +16,9 @@ public class GameManager : MonoBehaviour
 
     public int GetScoreForLevel(string l = "0")
     {
-        //gameData = jsonManager.LoadGameData();
-
         LevelData tempLevel = gameData.levelsData.Find(data => data.levelNumber == l);
 
         int i = tempLevel != null ? tempLevel.levelScore : -333; // Returns -333 if it doesn't find the level at all
-
-        //Debug.Log("Level " + l.ToString() + " score: " + i.ToString());
 
         return (i);
     }
