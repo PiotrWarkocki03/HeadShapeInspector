@@ -2911,9 +2911,9 @@ MonoBehaviour:
   - {fileID: 80398668}
   - {fileID: 1986049708}
   gameManager: {fileID: 0}
-  threshold_1: 3
-  threshold_2: 6
-  threshold_3: 9
+  threshold_1: 20
+  threshold_2: 40
+  threshold_3: 60
   button_h2: {fileID: 1332587764}
   button_h3: {fileID: 1878781005}
   Lock2: {fileID: 1001845836}

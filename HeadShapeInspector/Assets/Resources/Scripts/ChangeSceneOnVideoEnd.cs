@@ -9,6 +9,7 @@ public class ChangeSceneOnVideoEnd : MonoBehaviour
     //public string nextSceneName;
     public Button pauseButton;
     public Button unpauseButton;
+    public Button restartButton;
 
     private bool isPaused = false;
     private bool videoFinished = false;
@@ -38,7 +39,12 @@ public class ChangeSceneOnVideoEnd : MonoBehaviour
             // Add a listener to the unpause button click event
             unpauseButton.onClick.AddListener(UnpauseVideo);
             
-            
+        }
+
+        if (restartButton != null)
+        {
+            // Add a listener to the restart button click event
+            restartButton.onClick.AddListener(RestartVideo);
         }
 
         questionPanel.SetActive(false);
@@ -60,6 +66,15 @@ public class ChangeSceneOnVideoEnd : MonoBehaviour
 
     }
 
+    void RestartVideo()
+    {
+        videoFinished = false;
+        videoPlayer.Stop(); // Stop the video
+        videoPlayer.Play(); // Play the video from the beginning
+        questionPanel.SetActive(false);
+        Debug.Log("Restart Button Pressed");
+    }
+
     void OnVideoEnd(VideoPlayer vp)
     {
         if (vp == videoPlayer)
@@ -67,16 +82,9 @@ public class ChangeSceneOnVideoEnd : MonoBehaviour
             videoFinished = true;
             questionPanel.SetActive(true);
 
-            //Invoke("ChangeSceneWithDelay", 2f); // Invoke scene change after 2 seconds
+            
         }
     }
 
-    /*void ChangeSceneWithDelay()
-    {
-        if (videoFinished)
-        {
-            // Change the scene after the delay
-            SceneManager.LoadScene(nextSceneName);
-        }
-    }*/
+    
 }
