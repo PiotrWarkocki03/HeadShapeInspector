@@ -36,7 +36,7 @@ public class LevelPlayed : MonoBehaviour
             hasOpacityChanged = true;
         }
 
-        
+
     }
 
     public void ChangeOpacity()
@@ -63,7 +63,7 @@ public class LevelPlayed : MonoBehaviour
         }
     }
 
-    
+
 
     // Clear PlayerPrefs if needed
     public void ClearPlayerPrefs()

@@ -62,7 +62,7 @@ public class CameraMovement : MonoBehaviour
             rotationSlider.value = rotationSpeed;
         }
     }
-
+    //Call theses methods when scene is loaded
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         LoadRotationSpeed(); // Load rotation speed when scene is loaded
@@ -70,18 +70,20 @@ public class CameraMovement : MonoBehaviour
         AssignSliderTarget();
         AssignResetButtonTarget();
     }
-
+    //assigns a gameObject with the Tag "Baby" to the target field in the inspector
     void AssignBabyTarget()
     {
         GameObject[] allObjects = GameObject.FindGameObjectsWithTag("Baby");
         foreach (GameObject obj in allObjects)
         {
+
             if (obj != camera.gameObject)
             {
                 target = obj.transform;
                 break;
             }
         }
+        //if the target isnt null call the FocusOnTarget();
         if (target != null)
         {
             FocusOnTarget();
@@ -132,6 +134,7 @@ public class CameraMovement : MonoBehaviour
 
     void FocusOnTarget()
     {
+        //Cameras position transforms to this position to target the object
         camera.transform.position = target.position + new Vector3(0, 1, -10);
         camera.transform.LookAt(target);
     }

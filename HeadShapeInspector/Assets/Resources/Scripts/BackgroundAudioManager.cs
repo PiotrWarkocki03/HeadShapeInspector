@@ -51,7 +51,7 @@ public class BackgroundAudioManager : MonoBehaviour
 
     private void LoadVolumeSettings()
     {
-        float volume = PlayerPrefs.GetFloat("BackgroundVolume", 1.0f); // Default volume is 1.0f
+        float volume = PlayerPrefs.GetFloat("BackgroundVolume", 0.5f); // Default volume is 1.0f
         audioSource.volume = volume;
 
         if (volumeSlider != null)

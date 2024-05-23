@@ -11,6 +11,7 @@ TagManager:
   - BackgroundMusic
   - Baby
   - Reset
+  - D1
   layers:
   - Default
   - TransparentFX
