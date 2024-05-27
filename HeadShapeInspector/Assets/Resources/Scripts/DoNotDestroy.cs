@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*Ensures that only one instance of certain GameObjects tagged as "MainCamera," "JsonManager," "BackgroundMusic," and "D1" exist in the scene.
+If multiple instances are found, destroys the duplicates to maintain singularity.
+Marks this GameObject to not be destroyed when loading a new scene.*/
 public class doNotDestroy : MonoBehaviour
 {
     private void Awake()

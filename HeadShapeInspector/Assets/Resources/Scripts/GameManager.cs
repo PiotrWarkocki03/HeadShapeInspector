@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//// Manages game data and provides methods to retrieve and save scores for different levels.
 [System.Serializable]
 public class GameManager : MonoBehaviour
 {

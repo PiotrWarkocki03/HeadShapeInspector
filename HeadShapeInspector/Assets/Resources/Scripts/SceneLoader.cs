@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Handles scene loading functionality, including loading scenes by name and reloading the current scene.
 public class SceneLoader : MonoBehaviour
 {
     // Public function to be called when the button is pressed

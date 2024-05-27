@@ -2,6 +2,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*Script used on camera for rendering 3d object on screen and rotate the object for evaluation
+  Can change camera rotation speed using a slider
+  Playerprefs used to save rotation speed settings for when game is restarted
+  Assigns needed sliders and buttons when a new scene is loaded*/
 public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private Camera camera;

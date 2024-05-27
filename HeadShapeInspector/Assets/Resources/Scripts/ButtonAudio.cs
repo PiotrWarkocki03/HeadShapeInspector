@@ -1,6 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/* Manages the functionality for playing an audio clip when a button is clicked. 
+This script ensures that an audio source component is attached to the button's GameObject, 
+and assigns the specified audio clip to it. When the button is clicked, the assigned audio clip is played.*/
+
 public class ButtonAudio : MonoBehaviour
 {
     // Audio clip to play

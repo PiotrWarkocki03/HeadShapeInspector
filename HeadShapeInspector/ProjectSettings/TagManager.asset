@@ -12,6 +12,8 @@ TagManager:
   - Baby
   - Reset
   - D1
+  - Volume1
+  - Mute
   layers:
   - Default
   - TransparentFX

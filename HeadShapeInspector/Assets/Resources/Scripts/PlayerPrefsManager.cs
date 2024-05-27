@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+// Clears all saved PlayerPrefs data when called, ensuring a clean slate for player preferences.
 public class PlayerPrefsManager : MonoBehaviour
 {
     public void ClearAllPlayerPrefs()

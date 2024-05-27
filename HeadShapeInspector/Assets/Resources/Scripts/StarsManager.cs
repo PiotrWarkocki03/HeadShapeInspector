@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/* Manages the display of stars based on the score achieved in a specific level.
+Updates star sprite depending on the star ammount*/
 public class StarsManager : MonoBehaviour
 {
     [SerializeField] private string levelName;
-
     [SerializeField] private Sprite emptySprite;
     [SerializeField] private Sprite filledSprite;
-
     [SerializeField] private Image[] starsSprites;
-
     private GameManager gameManager;
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         //Load the Black And Yellow Star sprites in the Sprite slots in the inspectors

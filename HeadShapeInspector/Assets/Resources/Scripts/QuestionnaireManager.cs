@@ -5,6 +5,9 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+/*Manages the functionality of a questionnaire, including answering questions,
+managing hints and retries, and tracking + updating stars and time limits.*/
+
 public class QuestionnaireManager : MonoBehaviour
 {  
     public Button[] answerButtons;
@@ -67,8 +70,6 @@ public class QuestionnaireManager : MonoBehaviour
             
         }
     }
-
-    
     public void UseRetry()
     {
         //If retry is used change the bool to true and take away star from the current Level
@@ -79,8 +80,7 @@ public class QuestionnaireManager : MonoBehaviour
             //calls the updateStars Method
             updateStars();
             //Add a strikethrough the text
-            usedRetry.fontStyle = FontStyles.Strikethrough;
-            
+            usedRetry.fontStyle = FontStyles.Strikethrough;  
         }
     }
 
@@ -97,7 +97,6 @@ public class QuestionnaireManager : MonoBehaviour
             {
                 gameManager.SaveScoreForLevel(currentLevelName,starsCount);
             }
-
         }
         else
         {
@@ -157,7 +156,6 @@ public class QuestionnaireManager : MonoBehaviour
             }
         }
     }
-
     private void Update()
     {
         TimeCheck();

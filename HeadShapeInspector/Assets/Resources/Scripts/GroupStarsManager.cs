@@ -4,6 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*Manages the display and unlocking of levels based on accumulated stars in different difficulty groups.
+Updates the star ammount and star text based on accumulated stars.*/ 
 public class GroupStarsManager : MonoBehaviour
 {
 
@@ -15,16 +17,13 @@ public class GroupStarsManager : MonoBehaviour
     //Sprite arrays for empty and filled sprites
     [SerializeField] private Sprite emptySprite;
     [SerializeField] private Sprite filledSprite;
-
     //Image arrays for the star sprites 
     [SerializeField] private Image[] starsSprites;
     //Text arrays for the star texts
     [SerializeField] private Text[] starsTexts;
 
-
     [SerializeField] private GameManager gameManager;
 
-    
     [SerializeField] private int threshold_1;
     [SerializeField] private int threshold_2;
     [SerializeField] private int threshold_3;
@@ -37,8 +36,6 @@ public class GroupStarsManager : MonoBehaviour
 
     [SerializeField] private GameObject Ui2;
     [SerializeField] private GameObject Ui3;
-
-    
     void Start()
     {
         emptySprite = Resources.Load<Sprite>("Sprites/Black Star");
@@ -52,8 +49,7 @@ public class GroupStarsManager : MonoBehaviour
         Ui3.SetActive(false);
 
         button_h2.interactable = false;
-        button_h3.interactable = false;
-        
+        button_h3.interactable = false;       
         updateStars();
     }
 

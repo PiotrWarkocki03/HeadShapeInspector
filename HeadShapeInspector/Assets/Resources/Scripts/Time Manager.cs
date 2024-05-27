@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
+//Handles the timer, including starting, pausing and unpausing the time. 
 public class TimeManager : MonoBehaviour
 {
     private bool isPaused = true; // Start paused initially

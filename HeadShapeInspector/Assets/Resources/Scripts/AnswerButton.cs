@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/*interaction between answer buttons and the question manager.
+Allows for answer selection*/
 public class AnswerButton : MonoBehaviour
 {
     public int answerIndex;

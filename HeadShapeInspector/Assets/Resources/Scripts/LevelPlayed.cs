@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/*Used to change opacity of the image level when the level button is pressed or played
+ Playerprefs used to save the image opacity for when game is restarted*/
 public class LevelPlayed : MonoBehaviour
 {
     public Image imageToChange;
@@ -35,8 +38,6 @@ public class LevelPlayed : MonoBehaviour
         {
             hasOpacityChanged = true;
         }
-
-
     }
 
     public void ChangeOpacity()
@@ -62,8 +63,6 @@ public class LevelPlayed : MonoBehaviour
             imageToChange.color = imageColor;
         }
     }
-
-
 
     // Clear PlayerPrefs if needed
     public void ClearPlayerPrefs()
