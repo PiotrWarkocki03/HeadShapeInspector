@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 /*Script used on camera for rendering 3d object on screen and rotate the object for evaluation
   Can change camera rotation speed using a slider
+  Can change camera zoom using pinch motion
   Playerprefs used to save rotation speed settings for when game is restarted
   Assigns needed sliders and buttons when a new scene is loaded*/
 public class CameraMovement : MonoBehaviour
@@ -183,17 +184,17 @@ public class CameraMovement : MonoBehaviour
             touchZero = Input.GetTouch(0);
             touchOne = Input.GetTouch(1);
 
-            touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
-            touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
+            touchZeroPrevPos = touchZero.position + touchZero.deltaPosition;
+            touchOnePrevPos = touchOne.position + touchOne.deltaPosition;
 
             prevMagnitude = (touchZeroPrevPos - touchOnePrevPos).magnitude;
             currentMagnitude = (touchZero.position - touchOne.position).magnitude;
 
             diff = currentMagnitude - prevMagnitude;
-
-            camera.orthographicSize = Mathf.Clamp(camera.orthographicSize + diff, 3.5f, 5.5f);
+            //min and max zoom of camera
+            camera.orthographicSize = Mathf.Clamp(camera.orthographicSize + diff, 3.9f, 5.0f);
         }
 
-        camera.orthographicSize = Mathf.Clamp(camera.orthographicSize + Input.GetAxis("Mouse ScrollWheel"), 3.5f, 5.5f);
+        camera.orthographicSize = Mathf.Clamp(camera.orthographicSize + Input.GetAxis("Mouse ScrollWheel"), 3.9f, 5.0f);
     }
 }
