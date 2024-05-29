@@ -16,6 +16,14 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float rotationSpeed = 10f; // Default rotation speed
     private const string RotationSpeedKey = "RotationSpeed";
 
+    Touch touchZero;
+    Touch touchOne;
+    Vector2 touchZeroPrevPos;
+    Vector2 touchOnePrevPos;
+    float prevMagnitude;
+    float currentMagnitude;
+    float diff;
+
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -169,5 +177,23 @@ public class CameraMovement : MonoBehaviour
                 previousTouchPos = touch.position;
             }
         }
+
+        if (Input.touchCount == 2)
+        {
+            touchZero = Input.GetTouch(0);
+            touchOne = Input.GetTouch(1);
+
+            touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
+            touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
+
+            prevMagnitude = (touchZeroPrevPos - touchOnePrevPos).magnitude;
+            currentMagnitude = (touchZero.position - touchOne.position).magnitude;
+
+            diff = currentMagnitude - prevMagnitude;
+
+            camera.orthographicSize = Mathf.Clamp(camera.orthographicSize + diff, 3.5f, 5.5f);
+        }
+
+        camera.orthographicSize = Mathf.Clamp(camera.orthographicSize + Input.GetAxis("Mouse ScrollWheel"), 3.5f, 5.5f);
     }
 }
