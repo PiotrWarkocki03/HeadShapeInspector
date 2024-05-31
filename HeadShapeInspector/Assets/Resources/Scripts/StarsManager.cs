@@ -15,17 +15,39 @@ public class StarsManager : MonoBehaviour
     private GameManager gameManager;
 
 
+    [SerializeField] private Image parentSprite;
     
+    private float defaultOpacity = 1f; // Default opacity value
+    private string opacityKey; // Key to save/load opacity
+
     void Start()
     {
         //Load the Black And Yellow Star sprites in the Sprite slots in the inspectors
         emptySprite = Resources.Load<Sprite>("Sprites/Black Star");
         filledSprite = Resources.Load<Sprite>("Sprites/Yellow Star");
         
+        
+
+
+        parentSprite = GetComponentInParent<Image>();
+        if (parentSprite == null)
+        {
+            Debug.LogError("Parent Image component not found.");
+            return; // Exit if parent image component not found
+        }
 
         starsSprites = this.GetComponentsInChildren<Image>();
+        
+
 
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();
+
+        // Generate unique key for saving opacity
+        opacityKey = "Opacity_" + gameObject.name;
+
+        // Load opacity from PlayerPrefs, use default opacity if not found
+        float savedOpacity = PlayerPrefs.GetFloat(opacityKey, defaultOpacity);
+        SetParentOpacity(savedOpacity);
 
         updateStars();
     }
@@ -33,16 +55,34 @@ public class StarsManager : MonoBehaviour
 
     private void updateStars()
     {
+        int score = gameManager.GetScoreForLevel(levelName);
+
         foreach (var item in starsSprites)
         {
             item.sprite = emptySprite;
         }
 
-        int score = gameManager.GetScoreForLevel(levelName);
-
         for (int i = 0; i < score; i++)
         {
             starsSprites[i].sprite = filledSprite;
         }
+
+        // Calculate alpha value based on the score
+        float alpha = score >= 0 ? 1.0f : .2f;
+
+        SetParentOpacity(alpha);
+    }
+    private void SetParentOpacity(float alpha)
+    {
+        Color parentColor = parentSprite.color;
+        parentColor.a = alpha;
+        parentSprite.color = parentColor;
+
+        // Save opacity to PlayerPrefs
+        PlayerPrefs.SetFloat(opacityKey, alpha);
+        PlayerPrefs.Save(); // Save PlayerPrefs data immediately
     }
 }
+
+
+

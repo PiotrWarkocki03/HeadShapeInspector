@@ -14,6 +14,7 @@ TagManager:
   - D1
   - Volume1
   - Mute
+  - ImageToChange
   layers:
   - Default
   - TransparentFX

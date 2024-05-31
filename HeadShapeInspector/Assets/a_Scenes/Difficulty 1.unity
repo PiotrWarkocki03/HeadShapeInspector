@@ -531,7 +531,6 @@ GameObject:
   - component: {fileID: 152438143}
   - component: {fileID: 152438141}
   - component: {fileID: 152438140}
-  - component: {fileID: 152438144}
   - component: {fileID: 152438139}
   - component: {fileID: 152438138}
   m_Layer: 5
@@ -704,21 +703,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &152438144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152438136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 2098011851}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 2098011851}
 --- !u!1 &184531591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1248,6 @@ GameObject:
   - component: {fileID: 268663228}
   - component: {fileID: 268663226}
   - component: {fileID: 268663225}
-  - component: {fileID: 268663229}
   - component: {fileID: 268663224}
   - component: {fileID: 268663223}
   m_Layer: 5
@@ -1436,21 +1420,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &268663229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 268663221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1848818419}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1848818419}
 --- !u!1 &275877028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,7 +1511,6 @@ GameObject:
   - component: {fileID: 289509804}
   - component: {fileID: 289509802}
   - component: {fileID: 289509801}
-  - component: {fileID: 289509805}
   - component: {fileID: 289509800}
   - component: {fileID: 289509799}
   m_Layer: 5
@@ -1714,21 +1683,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &289509805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289509797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 851750150}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 851750150}
 --- !u!1 &321261585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,7 +2363,6 @@ GameObject:
   - component: {fileID: 381584924}
   - component: {fileID: 381584922}
   - component: {fileID: 381584921}
-  - component: {fileID: 381584925}
   - component: {fileID: 381584920}
   - component: {fileID: 381584919}
   m_Layer: 5
@@ -2583,21 +2537,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &381584925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381584917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1981202569}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1981202569}
 --- !u!1 &388924600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3421,7 +3361,6 @@ GameObject:
   - component: {fileID: 574441874}
   - component: {fileID: 574441872}
   - component: {fileID: 574441871}
-  - component: {fileID: 574441875}
   - component: {fileID: 574441870}
   - component: {fileID: 574441869}
   m_Layer: 5
@@ -3594,21 +3533,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &574441875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574441867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 102341940}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 102341940}
 --- !u!1 &583981844
 GameObject:
   m_ObjectHideFlags: 0
@@ -3622,7 +3547,6 @@ GameObject:
   - component: {fileID: 583981851}
   - component: {fileID: 583981849}
   - component: {fileID: 583981848}
-  - component: {fileID: 583981852}
   - component: {fileID: 583981847}
   - component: {fileID: 583981846}
   m_Layer: 5
@@ -3795,21 +3719,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &583981852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583981844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 33743673}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 33743673}
 --- !u!1 &606214723
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,7 +5395,6 @@ GameObject:
   - component: {fileID: 827110239}
   - component: {fileID: 827110237}
   - component: {fileID: 827110236}
-  - component: {fileID: 827110240}
   - component: {fileID: 827110235}
   - component: {fileID: 827110234}
   m_Layer: 5
@@ -5658,21 +5567,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &827110240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827110232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1044071656}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1044071656}
 --- !u!1 &845825097
 GameObject:
   m_ObjectHideFlags: 0
@@ -6325,7 +6220,6 @@ GameObject:
   - component: {fileID: 1033625811}
   - component: {fileID: 1033625809}
   - component: {fileID: 1033625808}
-  - component: {fileID: 1033625812}
   - component: {fileID: 1033625807}
   - component: {fileID: 1033625806}
   m_Layer: 5
@@ -6498,21 +6392,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1033625812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033625804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 275877030}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 275877030}
 --- !u!1 &1044071654
 GameObject:
   m_ObjectHideFlags: 0
@@ -6852,7 +6732,6 @@ GameObject:
   - component: {fileID: 1087897835}
   - component: {fileID: 1087897833}
   - component: {fileID: 1087897832}
-  - component: {fileID: 1087897836}
   - component: {fileID: 1087897831}
   - component: {fileID: 1087897830}
   m_Layer: 5
@@ -7025,21 +6904,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1087897836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087897828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1012080158}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1012080158}
 --- !u!1 &1091237860
 GameObject:
   m_ObjectHideFlags: 0
@@ -7364,7 +7229,6 @@ GameObject:
   - component: {fileID: 1180459473}
   - component: {fileID: 1180459471}
   - component: {fileID: 1180459470}
-  - component: {fileID: 1180459474}
   - component: {fileID: 1180459469}
   - component: {fileID: 1180459468}
   m_Layer: 5
@@ -7537,21 +7401,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1180459474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180459466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 115277191}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 115277191}
 --- !u!1 &1187868138
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,7 +7506,6 @@ GameObject:
   - component: {fileID: 1194015252}
   - component: {fileID: 1194015250}
   - component: {fileID: 1194015249}
-  - component: {fileID: 1194015253}
   - component: {fileID: 1194015248}
   - component: {fileID: 1194015247}
   m_Layer: 5
@@ -7829,21 +7678,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1194015253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194015245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1780792641}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1780792641}
 --- !u!1 &1195249712
 GameObject:
   m_ObjectHideFlags: 0
@@ -8464,7 +8299,6 @@ GameObject:
   - component: {fileID: 1331335135}
   - component: {fileID: 1331335133}
   - component: {fileID: 1331335132}
-  - component: {fileID: 1331335136}
   - component: {fileID: 1331335131}
   - component: {fileID: 1331335130}
   m_Layer: 5
@@ -8637,21 +8471,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1331335136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331335128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 741530065}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 741530065}
 --- !u!1 &1435083805
 GameObject:
   m_ObjectHideFlags: 0
@@ -8665,7 +8485,6 @@ GameObject:
   - component: {fileID: 1435083812}
   - component: {fileID: 1435083810}
   - component: {fileID: 1435083809}
-  - component: {fileID: 1435083813}
   - component: {fileID: 1435083808}
   - component: {fileID: 1435083807}
   m_Layer: 5
@@ -8838,21 +8657,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1435083813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435083805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 8869640}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 8869640}
 --- !u!1 &1436195175
 GameObject:
   m_ObjectHideFlags: 0
@@ -8866,7 +8671,6 @@ GameObject:
   - component: {fileID: 1436195182}
   - component: {fileID: 1436195180}
   - component: {fileID: 1436195179}
-  - component: {fileID: 1436195183}
   - component: {fileID: 1436195178}
   - component: {fileID: 1436195177}
   m_Layer: 5
@@ -9039,21 +8843,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1436195183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436195175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 231837136}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 231837136}
 --- !u!1 &1436352544
 GameObject:
   m_ObjectHideFlags: 0
@@ -9324,7 +9114,6 @@ GameObject:
   - component: {fileID: 1506135501}
   - component: {fileID: 1506135499}
   - component: {fileID: 1506135498}
-  - component: {fileID: 1506135502}
   - component: {fileID: 1506135497}
   - component: {fileID: 1506135496}
   m_Layer: 5
@@ -9497,21 +9286,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1506135502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506135494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 773423101}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 773423101}
 --- !u!1 &1521416694
 GameObject:
   m_ObjectHideFlags: 0
@@ -9616,7 +9391,6 @@ GameObject:
   - component: {fileID: 1527820439}
   - component: {fileID: 1527820437}
   - component: {fileID: 1527820436}
-  - component: {fileID: 1527820440}
   - component: {fileID: 1527820435}
   - component: {fileID: 1527820434}
   m_Layer: 5
@@ -9789,21 +9563,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1527820440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527820432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1295243715}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1295243715}
 --- !u!1 &1534988895
 GameObject:
   m_ObjectHideFlags: 0
@@ -10181,7 +9941,6 @@ GameObject:
   - component: {fileID: 1604543678}
   - component: {fileID: 1604543676}
   - component: {fileID: 1604543675}
-  - component: {fileID: 1604543679}
   - component: {fileID: 1604543674}
   - component: {fileID: 1604543673}
   m_Layer: 5
@@ -10354,21 +10113,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1604543679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604543671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1262899836}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1262899836}
 --- !u!1 &1682889282
 GameObject:
   m_ObjectHideFlags: 0
@@ -10528,11 +10273,10 @@ GameObject:
   - component: {fileID: 1707709459}
   - component: {fileID: 1707709457}
   - component: {fileID: 1707709456}
-  - component: {fileID: 1707709460}
   - component: {fileID: 1707709455}
   - component: {fileID: 1707709454}
   m_Layer: 5
-  m_Name: L.14
+  m_Name: L1.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10701,21 +10445,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &1707709460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707709452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 1750021685}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 1750021685}
 --- !u!1 &1727317714
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,7 +11491,6 @@ GameObject:
   - component: {fileID: 2046257963}
   - component: {fileID: 2046257961}
   - component: {fileID: 2046257960}
-  - component: {fileID: 2046257964}
   - component: {fileID: 2046257959}
   - component: {fileID: 2046257958}
   m_Layer: 5
@@ -11934,21 +11663,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &2046257964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046257956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 491630260}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 491630260}
 --- !u!1 &2095215853
 GameObject:
   m_ObjectHideFlags: 0
@@ -11962,7 +11677,7 @@ GameObject:
   - component: {fileID: 2095215855}
   m_Layer: 5
   m_Name: Level1.1
-  m_TagString: Untagged
+  m_TagString: ImageToChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12465,7 +12180,6 @@ GameObject:
   - component: {fileID: 8759019308216040363}
   - component: {fileID: 7679344298451243014}
   - component: {fileID: 469075219539240265}
-  - component: {fileID: 8759019308216040364}
   - component: {fileID: 4787166577403459420}
   - component: {fileID: 4787166577403459419}
   m_Layer: 5
@@ -12491,21 +12205,7 @@ MonoBehaviour:
   emptySprite: {fileID: 0}
   filledSprite: {fileID: 0}
   starsSprites: []
---- !u!114 &8759019308216040364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8759019308216040362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5655fbaeb7bd648ad95f91a03405c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageToChange: {fileID: 2095215855}
-  minOpacity: 0.21
-  maxOpacity: 0.72
+  parentSprite: {fileID: 2095215855}
 --- !u!1 &9134397423164296428
 GameObject:
   m_ObjectHideFlags: 0
