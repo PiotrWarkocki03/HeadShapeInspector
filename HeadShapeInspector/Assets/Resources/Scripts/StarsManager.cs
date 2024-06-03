@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 /* Manages the display of stars based on the score achieved in a specific level.
-Updates star sprite depending on the star ammount*/
+Updates star sprite depending on the star amount */
 public class StarsManager : MonoBehaviour
 {
     [SerializeField] private string levelName;
@@ -14,20 +13,16 @@ public class StarsManager : MonoBehaviour
     [SerializeField] private Image[] starsSprites;
     private GameManager gameManager;
 
-
     [SerializeField] private Image parentSprite;
-    
+
     private float defaultOpacity = 1f; // Default opacity value
     private string opacityKey; // Key to save/load opacity
 
     void Start()
     {
-        //Load the Black And Yellow Star sprites in the Sprite slots in the inspectors
+        // Load the Black And Yellow Star sprites in the Sprite slots in the inspector
         emptySprite = Resources.Load<Sprite>("Sprites/Black Star");
         filledSprite = Resources.Load<Sprite>("Sprites/Yellow Star");
-        
-        
-
 
         parentSprite = GetComponentInParent<Image>();
         if (parentSprite == null)
@@ -37,8 +32,6 @@ public class StarsManager : MonoBehaviour
         }
 
         starsSprites = this.GetComponentsInChildren<Image>();
-        
-
 
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();
 
@@ -51,7 +44,6 @@ public class StarsManager : MonoBehaviour
 
         updateStars();
     }
-
 
     private void updateStars()
     {
@@ -67,11 +59,11 @@ public class StarsManager : MonoBehaviour
             starsSprites[i].sprite = filledSprite;
         }
 
-        // Calculate alpha value based on the score
-        float alpha = score >= 0 ? 1.0f : .2f;
-
+        // Ensure alpha is set correctly regardless of the score
+        float alpha = score >= 0 ? 1.0f : 0.2f;
         SetParentOpacity(alpha);
     }
+
     private void SetParentOpacity(float alpha)
     {
         Color parentColor = parentSprite.color;
@@ -83,6 +75,3 @@ public class StarsManager : MonoBehaviour
         PlayerPrefs.Save(); // Save PlayerPrefs data immediately
     }
 }
-
-
-

@@ -55,6 +55,8 @@ public class FourOptionQManager : MonoBehaviour
 
         currentLevelName = SceneManager.GetActiveScene().name;
         gameManager = GameObject.Find("JsonManager").GetComponent<GameManager>();
+
+        updateStars();
     }
 
     public void incorrectAnswer1()
@@ -64,8 +66,10 @@ public class FourOptionQManager : MonoBehaviour
         Debug.Log("incorrect!");
         q1.SetActive(false);
         q2.SetActive(true);
+
         
         starsCount--;
+        currentQuestionIndex++;
         updateStars();
     }
     public void incorrectAnswer2()
@@ -75,7 +79,9 @@ public class FourOptionQManager : MonoBehaviour
         Debug.Log("incorrect!");
         q2.SetActive(false);
         q3.SetActive(true);      
+        
         starsCount--;
+        currentQuestionIndex++;
         updateStars();
     }
 
@@ -100,13 +106,17 @@ public class FourOptionQManager : MonoBehaviour
             Debug.Log("STARS:" + starsCount);
         }
         
+        
     }
     public void correctAnswer1()
     {
         Debug.Log("correct!");
         q1Correct = true;
         q1.SetActive(false);
-        q2.SetActive(true);   
+        q2.SetActive(true);
+
+        currentQuestionIndex++;
+        updateStars();
     }
     public void correctAnswer2()
     {
@@ -114,13 +124,19 @@ public class FourOptionQManager : MonoBehaviour
         q2Correct = true;
         q2.SetActive(false);
         q3.SetActive(true);
+
+        currentQuestionIndex++;
+        updateStars();
     }
     public void correctAnswer3()
     {
         Debug.Log("correct!");
         q3Correct = true;
-        q2.SetActive(false);
-        q3.SetActive(true);
+        //q2.SetActive(false);
+        //q3.SetActive(true);
+
+        
+        updateStars();
 
         if (starsCount <= 1)
         {
@@ -133,8 +149,10 @@ public class FourOptionQManager : MonoBehaviour
             Debug.Log("STARS:" + starsCount);
         }
     }
+
     public void SelectAnswer(int answerIndex)
     {
+
         if (answerIndex == GetCorrectAnswerIndex())
         {
             
@@ -160,22 +178,24 @@ public class FourOptionQManager : MonoBehaviour
     }
     private void updateStars()
     {
+        Debug.Log("Updating stars display. Stars count: " + starsCount);
+
         foreach (var item in stars)
         {
             item.sprite = emptyStar;
         }
 
-        for (int i = 0; i < starsCount; i++)
+        for (int i = 0; i < Mathf.Min(starsCount, stars.Length); i++)
         {
             stars[i].sprite = filledStar;
         }
-        
+
         foreach (var item in resultsCorrectPanel)
         {
             item.sprite = emptyStar;
         }
 
-        for (int i = 0; i < starsCount; i++)
+        for (int i = 0; i < Mathf.Min(starsCount, resultsCorrectPanel.Length); i++)
         {
             resultsCorrectPanel[i].sprite = filledStar;
         }
@@ -185,10 +205,12 @@ public class FourOptionQManager : MonoBehaviour
             item.sprite = emptyStar;
         }
 
-        for (int i = 0; i < starsCount; i++)
+        for (int i = 0; i < Mathf.Min(starsCount, resultsIncorrectPanel.Length); i++)
         {
             resultsIncorrectPanel[i].sprite = filledStar;
         }
+
+
     }
 
     
