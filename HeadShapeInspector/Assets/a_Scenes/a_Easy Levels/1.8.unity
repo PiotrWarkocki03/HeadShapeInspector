@@ -133,6 +133,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 72517459}
+    - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -143,6 +158,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReloadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UseRetry
       objectReference: {fileID: 0}
@@ -150,6 +170,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: UnpauseTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneLoader, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 442477660742207195, guid: cef2b67f4075fb749ad63cc98ef15dd9,
         type: 3}
@@ -311,7 +336,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1621288029}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4199181282035359210, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+        type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 72517459}
   m_SourcePrefab: {fileID: 100100000, guid: cef2b67f4075fb749ad63cc98ef15dd9, type: 3}
 --- !u!224 &312203 stripped
 RectTransform:
@@ -401,7 +430,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: Nothing will happen
 --- !u!222 &38238993
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -501,6 +530,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53719706}
   m_CullTransparentMesh: 1
+--- !u!1 &72517454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4199181282035359210, guid: cef2b67f4075fb749ad63cc98ef15dd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 312202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &72517459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72517454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9f38606349594459925201b93684fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &90582702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,7 +2864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.50980395, g: 0.93333334, b: 0.02745098, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2837,7 +2884,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: 10000-15000
 --- !u!222 &447133151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2916,7 +2963,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: She would never be able to speak
 --- !u!222 &482728500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3443,6 +3490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968173212533373302, guid: 1eb5d3fbb8ca39a4ead1363a3135a506,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3230189858412708024, guid: 1eb5d3fbb8ca39a4ead1363a3135a506,
         type: 3}
@@ -4238,7 +4290,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Correct!
+  m_Text: 5000-7500
 --- !u!222 &651183758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5316,7 +5368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Question Based on video shown:'
+  m_Text: What would happen if the growth plates fuse too early
 --- !u!222 &1012121846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5721,7 +5773,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: The baby will go blind
 --- !u!222 &1091752158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6220,7 +6272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: 12500-15000
 --- !u!222 &1196548922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6429,7 +6481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: The baby will need hearing aids
 --- !u!222 &1254825432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6611,7 +6663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Question Based on video shown:'
+  m_Text: What could have happened if Lexi didnt get surgery
 --- !u!222 &1382363092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6808,7 +6860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: 15000-20000
 --- !u!222 &1484448063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7426,7 +7478,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: She would always stutter
 --- !u!222 &1590421499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8208,7 +8260,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Correct!
+  m_Text: One eye would always be shut
 --- !u!222 &1724951271
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8370,7 +8422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.50980395, g: 0.93333334, b: 0.02745098, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8390,7 +8442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Incorrect
+  m_Text: She could have developed Mental problems
 --- !u!222 &1809073547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8988,7 +9040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.50980395, g: 0.93333334, b: 0.02745098, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9008,7 +9060,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Correct!
+  m_Text: Brain cant grow properly
 --- !u!222 &1999600962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9371,7 +9423,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Question Based on video shown:'
+  m_Text: How many cases of Craniosynosthosis are there each year in the US
 --- !u!222 &2137599667
 CanvasRenderer:
   m_ObjectHideFlags: 0

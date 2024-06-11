@@ -49,7 +49,7 @@ public class FourOptionQManager : MonoBehaviour
         q3Correct = false;
         starsCount = 3;
         
-        q1.SetActive(true);
+        //q1.SetActive(true);
         q2.SetActive(false);
         q3.SetActive(false);
 

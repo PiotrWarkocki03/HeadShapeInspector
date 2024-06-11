@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1985684197284974493}
   - component: {fileID: 3905895626041998710}
   - component: {fileID: 5194818958664622377}
-  - component: {fileID: 6716820030923170150}
   m_Layer: 5
   m_Name: a4
   m_TagString: Untagged
@@ -121,20 +120,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6716820030923170150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139955711909759181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a263b4fb7bf137040855c8dc3d98babe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  answerIndex: 3
-  questionnaireManager: {fileID: 0}
 --- !u!1 &1053840685267209257
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +132,6 @@ GameObject:
   - component: {fileID: 6294378254923388138}
   - component: {fileID: 3531469179348624795}
   - component: {fileID: 1580903117346175186}
-  - component: {fileID: 9114381552658667410}
   m_Layer: 5
   m_Name: a1
   m_TagString: Untagged
@@ -256,20 +240,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &9114381552658667410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053840685267209257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a263b4fb7bf137040855c8dc3d98babe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  answerIndex: 0
-  questionnaireManager: {fileID: 0}
 --- !u!1 &2968173212533373302
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +291,6 @@ GameObject:
   - component: {fileID: 3374803529386653984}
   - component: {fileID: 3191980210368291608}
   - component: {fileID: 7668954010893674270}
-  - component: {fileID: 5734967758434747587}
   m_Layer: 5
   m_Name: a3
   m_TagString: Untagged
@@ -430,20 +399,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5734967758434747587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5722217703961209493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a263b4fb7bf137040855c8dc3d98babe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  answerIndex: 2
-  questionnaireManager: {fileID: 0}
 --- !u!1 &6751397726933615533
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +696,6 @@ GameObject:
   - component: {fileID: 1181311660823188269}
   - component: {fileID: 4716404852006026593}
   - component: {fileID: 6487643105931145375}
-  - component: {fileID: 5140094497586573640}
   m_Layer: 5
   m_Name: a2
   m_TagString: Untagged
@@ -850,17 +804,3 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5140094497586573640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9154056407616894358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a263b4fb7bf137040855c8dc3d98babe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  answerIndex: 1
-  questionnaireManager: {fileID: 0}
