@@ -152,19 +152,12 @@ public class FourOptionQManager : MonoBehaviour
 
     public void SelectAnswer(int answerIndex)
     {
-
-        if (answerIndex == GetCorrectAnswerIndex())
-        {
-            
-            int i = gameManager.GetScoreForLevel(currentLevelName);
-
-            if (starsCount > i)
-            {
-                gameManager.SaveScoreForLevel(currentLevelName,starsCount);
-            }
-        }
+        int i = gameManager.GetScoreForLevel(currentLevelName);
+        gameManager.SaveScoreForLevel(currentLevelName, starsCount);
         
-    }
+    } 
+
+
     private int GetCorrectAnswerIndex()
     {
         for (int i = 0; i < answerButtons.Length; i++)
@@ -176,6 +169,7 @@ public class FourOptionQManager : MonoBehaviour
         }
         return -1; // Return -1 if the correct answer is not found
     }
+
     private void updateStars()
     {
         Debug.Log("Updating stars display. Stars count: " + starsCount);

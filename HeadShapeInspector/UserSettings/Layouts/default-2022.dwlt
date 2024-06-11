@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 107
+  controlID: 101
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 108
+  controlID: 102
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 58
+  controlID: 44
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 48
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,8 +241,8 @@ MonoBehaviour:
     y: 0
     width: 293
     height: 553
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SimulatorWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -267,15 +267,15 @@ MonoBehaviour:
     y: 0
     width: 1012
     height: 553
-  m_MinSize: {x: 202, y: 221}
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,8 +295,8 @@ MonoBehaviour:
     y: 0
     width: 615
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -486,9 +486,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: be680000
+      m_SelectedIDs: 4a7c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 48dcfefff8dcfeff88dffefff4e1feff60e4feffcce6feff38e9feffa4ebfeffc6eefeff6ceffeffa8f0feff06f1feff72f3feffdef5feff18f9feff84fbfeff1afefeff8600fffff202ffff5e05ffffca07ffff8e0afffffc0bffffa60cffffbe0cffff2a0fffff9611ffff0214ffff6e16ffffda18ffffc41cffff301fffff9c21ffff2424ffff9026fffffc28ffff682bffffd42dffff9434ffffbe34ffffe834ffff2035ffff8c37fffff839ffff443effff8a3effffb43effff883ffffff441ffff6044ffffcc46ffff3849ffffa44bffff2450ffff9052fffffc54ffff6857ffffd459ffff6a5dffffea5fffff8062ffffc662ffff3e64ffffaa66ffff1669ffff846bfffff06dffff5c70ffff9873ffff0476ffff7078ffffdc7affffaa7dffff1680ffff8282ffffee84ffff5a87ffffe689ffff528cffffbe8effffd291ffff0692ffff7294ffffde96ffff4a99ffffb69bffff229effff8ea0ffff1aa4ffff44a4ffffeea4ffffcaa5ffff36a8ffff9caaffff08adffff74afffff42b2ffffaeb4ffff1ab7ffff46bbffff7ebbffff6ebcffffc8bcffff18c1ffffdec1ffff66c2ffffaec2ffff2ec5ffffa6caffff0ccdffff78cfffffe4d1ffff50d4ffffbcd6ffff28d9ffff0edcffff7adeffffe6e0ffff52e3ffff20e6ffff8ce8fffff8eaffff64edffffd0efffff68f2ffffd4f4ffff40f7ffff28fbffff64840000168800005e8800007e880000868800008e880000c48800000e89000012890000dc890000b8920000c0920000ce920000049300000a930000cc930000ec9300004694000020a400002ca4000050a4000078a40000b4a40000fca4000016a600002ab2000040b3000026b40000feb900006cc500009acc0000a4cd0000a8cd0000accd0000bacd0000eccd000048ce0000bcd7000098e0000084eb0000b8eb000078ec000092ec0000d4ec0000f6ec000020ed00003af8000042f8000092f80000e8f800000af90000d0f9000016fa00001afa000036fa0000ec0e0100fa1601005417010072170100d21701002e18010032180100ba180100d61801004c1f01001c2101002e2401007e28010080280100ba280100242901005a29010078290100502a0100
+      m_ExpandedIDs: e29effff4ea1ffff6ee6ffff18e9ffff96e9ffffa6edffff68f1ffff28fbffff747900009e8d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -843,9 +843,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 783.61206, y: 471.2976, z: 5.164613}
+    m_Target: {x: 898.0515, y: 444.4888, z: 4.465163}
     speed: 2
-    m_Value: {x: 783.61206, y: 471.2976, z: 5.164613}
+    m_Value: {x: 898.0515, y: 444.4888, z: 4.465163}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -895,9 +895,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 495.48087
+    m_Target: 565.426
     speed: 2
-    m_Value: 495.48087
+    m_Value: 565.426
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -968,7 +968,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/a_Scenes
+    - Assets/a_Scenes/a_Easy Levels
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -976,16 +976,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/a_Scenes
+  - Assets/a_Scenes/a_Easy Levels
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\User\Documents\GitHub\HeadShapeInspector\HeadShapeInspector
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: bc640000
-    m_LastClickedID: 25788
-    m_ExpandedIDs: 00000000b0640000b2640000b4640000b6640000b8640000ba640000bc640000
+    m_SelectedIDs: 9c650000
+    m_LastClickedID: 26012
+    m_ExpandedIDs: 000000006a6100006c6100006e61000070610000726100007461000076610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0640000b2640000b4640000b6640000b8640000ba640000bc640000
+    m_ExpandedIDs: 000000006a6100006c6100006e61000070610000726100007461000076610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
