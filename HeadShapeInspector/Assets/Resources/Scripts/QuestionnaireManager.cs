@@ -90,6 +90,8 @@ public class QuestionnaireManager : MonoBehaviour
         {
             correctOption.SetActive(true);
             incorrectOption.SetActive(false);
+            timeManager.PauseTimer();
+
 
             int i = gameManager.GetScoreForLevel(currentLevelName);
 
@@ -102,6 +104,7 @@ public class QuestionnaireManager : MonoBehaviour
         {
             incorrectOption.SetActive(true);
             correctOption.SetActive(false);
+            timeManager.PauseTimer();
         }
         timeManager.PauseTimer();
 

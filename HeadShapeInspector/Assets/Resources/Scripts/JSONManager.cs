@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-
 // Manages the saving and loading of game data using JSON serialization.
 [System.Serializable]
 public class LevelData
@@ -17,67 +16,93 @@ public class GameData
     public List<LevelData> levelsData = new List<LevelData>();
 }
 
-[System.Serializable]
 public class JSONManager : MonoBehaviour
 {
-    public static readonly string SAVE_FOLDER = Application.dataPath + "/Resources/Saves/";
-
+    public static string SAVE_FOLDER;
     public string FILENAME = "save.json";
-
 
     private void Awake()
     {
+        // Set the save folder path in Awake
+        SAVE_FOLDER = Application.persistentDataPath + "/Resources/Saves/";
 
-
-
-       
-        //Test if Save folder exists
+        // Test if Save folder exists
         if (!Directory.Exists(SAVE_FOLDER))
         {
-            //Create Save Folder
+            // Create Save Folder
             Directory.CreateDirectory(SAVE_FOLDER);
         }
+
+        Debug.Log("Save folder path: " + SAVE_FOLDER);
+
+        // Ensure save file is created if it doesn't exist
+        EnsureSaveFileExists();
     }
 
+    private void EnsureSaveFileExists()
+    {
+        string filePath = Path.Combine(SAVE_FOLDER, FILENAME);
+
+        if (!File.Exists(filePath))
+        {
+            Debug.Log("Save file not found. Creating new save file.");
+            SaveGameData(new GameData());
+        }
+    }
 
     [ContextMenu("SaveGameData")]
     public void SaveGameData(GameData gameData)
     {
-        // Convertendo o objeto Cliente para JSON
+        // Convert the object to JSON
         string json = JsonUtility.ToJson(gameData);
 
-        // Caminho do arquivo onde os dados serão salvos
-        string caminhoArquivo = Path.Combine(SAVE_FOLDER, FILENAME);
+        // Path of the file where the data will be saved
+        string filePath = Path.Combine(SAVE_FOLDER, FILENAME);
 
-        // Escrevendo o JSON no arquivo
-        File.WriteAllText(caminhoArquivo, json);
+        // Write the JSON to the file
+        File.WriteAllText(filePath, json);
+        Debug.Log("Saved data to: " + filePath);
     }
 
+    [ContextMenu("ClearGameData")]
+    public void ClearGameData()
+    {
+        // Create an empty GameData object
+        GameData emptyGameData = new GameData();
+
+        // Convert the object to JSON
+        string json = JsonUtility.ToJson(emptyGameData);
+
+        // Path of the file where the data will be saved
+        string filePath = Path.Combine(SAVE_FOLDER, FILENAME);
+
+        // Write the JSON to the file, overwriting any existing data
+        File.WriteAllText(filePath, json);
+        Debug.Log("Cleared game data.");
+    }
 
     [ContextMenu("LoadGameData")]
     public GameData LoadGameData()
     {
-        // Caminho do arquivo onde os dados serão salvos
-        string caminhoArquivo = Path.Combine(SAVE_FOLDER, FILENAME);
+        // Path of the file where the data will be saved
+        string filePath = Path.Combine(SAVE_FOLDER, FILENAME);
 
-        // Verificando se o arquivo existe
-        if (File.Exists(caminhoArquivo))
+        // Check if the file exists
+        if (File.Exists(filePath))
         {
-            // Lendo o JSON do arquivo
-            string json = File.ReadAllText(caminhoArquivo);
+            // Read the JSON from the file
+            string json = File.ReadAllText(filePath);
 
-            // Convertendo o JSON de volta para objeto Cliente
-            GameData g = JsonUtility.FromJson<GameData>(json);
+            // Convert the JSON back to object
+            GameData gameData = JsonUtility.FromJson<GameData>(json);
+            Debug.Log("Loaded data from: " + filePath);
 
-            return g;
+            return gameData;
         }
         else
         {
-            Debug.LogError("The file couldn't be found.");
+            Debug.LogError("The file couldn't be found at: " + filePath);
             return null;
         }
     }
-
-
-
 }

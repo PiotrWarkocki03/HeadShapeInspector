@@ -8,7 +8,7 @@ public static class SaveSystem
 {
 
                                    //previously Application.dataPath
-    public static readonly string SAVE_FOLDER = Application.persistentDataPath + "/Saves/";
+    public static readonly string SAVE_FOLDER = Application.persistentDataPath + "/Resources/Saves/";
     public static readonly string FileName = "save.txt";
     public static void Init()
     {
@@ -25,9 +25,11 @@ public static class SaveSystem
     }
     public static string Load()
     {
-        if (File.Exists(SAVE_FOLDER + FileName))
+        string filePath = Path.Combine(SAVE_FOLDER, FileName);
+
+        if (File.Exists(filePath))
         {
-            string saveString = File.ReadAllText(SAVE_FOLDER + FileName);
+            string saveString = File.ReadAllText(filePath);
             return saveString;
         }
         else

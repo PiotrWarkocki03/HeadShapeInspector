@@ -1213,7 +1213,7 @@ MonoBehaviour:
   - {fileID: 1763569664}
   filledStar: {fileID: 21300000, guid: 462c3509bc3b115488cb04283bac728d, type: 3}
   emptyStar: {fileID: 21300000, guid: 1b394722b30ed3a42820b2708f3ba7b1, type: 3}
-  timeLimit: 10
+  timeLimit: 35
   usedHint: {fileID: 642553389}
   usedRetry: {fileID: 644146249}
   timeLimitReached: {fileID: 9111550}
