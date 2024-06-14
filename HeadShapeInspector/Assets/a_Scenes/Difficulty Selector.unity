@@ -597,9 +597,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 365646971}
     - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -607,13 +622,33 @@ PrefabInstance:
       objectReference: {fileID: 365646971}
     - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Main Menu
       objectReference: {fileID: 0}
     - target: {fileID: 5645266409184673580, guid: fb6fb62012205a140a9ee92ade4dab42,
         type: 3}
