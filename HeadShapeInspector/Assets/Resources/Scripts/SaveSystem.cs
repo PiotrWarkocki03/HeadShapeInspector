@@ -6,7 +6,9 @@ using UnityEngine;
 // Provides static methods for saving and loading game data to/from a text file.
 public static class SaveSystem
 {
-    public static readonly string SAVE_FOLDER = Application.dataPath + "/Saves/";
+
+                                   //previously Application.dataPath
+    public static readonly string SAVE_FOLDER = Application.persistentDataPath + "/Saves/";
     public static readonly string FileName = "save.txt";
     public static void Init()
     {

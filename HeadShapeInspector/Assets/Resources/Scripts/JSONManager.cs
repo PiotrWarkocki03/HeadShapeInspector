@@ -27,6 +27,10 @@ public class JSONManager : MonoBehaviour
 
     private void Awake()
     {
+
+
+
+       
         //Test if Save folder exists
         if (!Directory.Exists(SAVE_FOLDER))
         {
